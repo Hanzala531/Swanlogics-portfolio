@@ -27,6 +27,7 @@ export default function QuoteRequestForm() {
 
   const [showModal, setShowModal] = useState(false);
   const [dragActive, setDragActive] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Chatbot states
   const [showChatbot, setShowChatbot] = useState(false);
@@ -63,16 +64,16 @@ export default function QuoteRequestForm() {
     { name: '❤️', emojis: ['❤️', '🧡', '💛', '💚', '💙', '💜', '🖤', '🤍', '🤎', '💔', '❣️', '💕', '💞', '💓', '💗', '💖', '💘', '💝', '💟', '♥️', '💯', '💢', '💥', '💫', '💦', '💨', '🕳️', '💬', '👁️‍🗨️', '🗯️'] }
   ];
 
-  const botResponses = [
-    "I'd be happy to help you with that! Let me provide you with a comprehensive solution.",
-    "That's a great question! Here's what I recommend based on best practices.",
-    "Absolutely! I can guide you through this step by step.",
-    "Excellent choice! This approach will work well for your project. Let me explain how to implement it.",
-    "I understand what you're looking for. Here's a modern solution that should meet your needs.",
-    "Perfect! I have experience with this type of implementation. Here's how you can approach it.",
-    "That's definitely possible! I'll show you the most efficient way to accomplish this.",
-    "Great project idea! Here are some suggestions to get you started on the right track."
-  ];
+  // const botResponses = [
+  //   "I'd be happy to help you with that! Let me provide you with a comprehensive solution.",
+  //   "That's a great question! Here's what I recommend based on best practices.",
+  //   "Absolutely! I can guide you through this step by step.",
+  //   "Excellent choice! This approach will work well for your project. Let me explain how to implement it.",
+  //   "I understand what you're looking for. Here's a modern solution that should meet your needs.",
+  //   "Perfect! I have experience with this type of implementation. Here's how you can approach it.",
+  //   "That's definitely possible! I'll show you the most efficient way to accomplish this.",
+  //   "Great project idea! Here are some suggestions to get you started on the right track."
+  // ];
 
   // Auto scroll to bottom when new message is added
   const scrollToBottom = () => {
@@ -128,6 +129,8 @@ export default function QuoteRequestForm() {
       return;
     }
 
+    setIsSubmitting(true);
+
     try {
       const apiData = {
         service: formData.serviceType,
@@ -182,6 +185,8 @@ export default function QuoteRequestForm() {
     } catch (error) {
       console.error('Error submitting quote:', error);
       alert('Failed to submit quote request. Please try again.');
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -620,13 +625,23 @@ export default function QuoteRequestForm() {
               <div className="text-center absolute top-60 left-22">
                 <button
                   type="submit"
-                  disabled={!isFormValid()}
-                  className={`px-12 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 transform ${isFormValid()
+                  disabled={!isFormValid() || isSubmitting}
+                  className={`px-12 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 transform flex items-center justify-center ${isFormValid() && !isSubmitting
                       ? 'bg-lime-500 hover:bg-lime-600 text-white hover:scale-105 shadow-lg hover:shadow-xl'
                       : 'bg-lime-300 text-gray-500 cursor-not-allowed'
                     }`}
                 >
-                  Get My Quote
+                  {isSubmitting ? (
+                    <>
+                      <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                      Submitting...
+                    </>
+                  ) : (
+                    'Get My Quote'
+                  )}
                 </button>
                 <p className="text-sm text-gray-500 mt-3">
                   We'll respond within 24-48 hours
@@ -722,7 +737,7 @@ className="fixed lg:sticky bottom-4 md:-bottom-85 lg:bottom-80 right-4 md:right-
                     <div className="flex-1">
                       <div className="bg-white rounded-2xl rounded-tl-md p-3 shadow-sm border">
                         <p className="text-sm text-gray-800">
-                          Great news! Which service are you looking for?
+                      Swan magic ahead! Which service are you looking for....
                         </p>
                       </div>
                     </div>
@@ -793,7 +808,7 @@ className="fixed lg:sticky bottom-4 md:-bottom-85 lg:bottom-80 right-4 md:right-
                   </div>
 
                   {/* Sample conversation messages */}
-                  <div className="flex gap-3">
+                  {/* <div className="flex gap-3">
                     <div className="w-7 h-7 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center flex-shrink-0 p-1">
                       <img 
                         src="/msgIcon.png" 
@@ -809,10 +824,10 @@ className="fixed lg:sticky bottom-4 md:-bottom-85 lg:bottom-80 right-4 md:right-
                       </div>
                       <p className="text-xs text-gray-400 mt-1">09:10 PM</p>
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* User message example */}
-                  <div className="flex gap-3 flex-row-reverse">
+                  {/* <div className="flex gap-3 flex-row-reverse">
                     <div className="w-7 h-7 bg-gradient-to-r from-orange-400 to-red-500 rounded-full flex items-center justify-center flex-shrink-0">
                       <span className="text-white text-xs font-bold">H</span>
                     </div>
@@ -827,7 +842,7 @@ className="fixed lg:sticky bottom-4 md:-bottom-85 lg:bottom-80 right-4 md:right-
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* Other dynamic messages */}
                   {messages.slice(1).map((message) => (
