@@ -77,3 +77,7 @@ ehthumbs.db
 .vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Generated/transpiled config files
+vite.config.js
+vite.config.d.ts
