@@ -91,7 +91,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-sm block py-1 text-left xl:text-base "
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Home
                     </button>
@@ -99,7 +99,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-sm block py-1 text-left xl:text-base "
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       About Us
                     </button>
@@ -107,7 +107,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/services")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-sm block py-1 text-left xl:text-base "
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Our Services
                     </button>
@@ -115,7 +115,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-sm block py-1 text-left xl:text-base "
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Our Team
                     </button>
@@ -123,7 +123,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/portfolio")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-sm block py-1 text-left xl:text-base "
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Portfolio
                     </button>
@@ -143,7 +143,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => alert("Privacy Policy page coming soon!")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-sm block py-1 text-left xl:text-base "
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Privacy Policy
                     </button>
@@ -153,7 +153,7 @@ export function Footer() {
                       onClick={() =>
                         alert("Terms & Conditions page coming soon!")
                       }
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-sm block py-1 text-left xl:text-base "
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Terms And Conditions
                     </button>
@@ -161,7 +161,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => alert("FAQ page coming soon!")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-sm block py-1 text-left xl:text-base "
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       FAQ's
                     </button>
@@ -169,7 +169,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/contact")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-sm block py-1 text-left xl:text-base "
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Contact Us
                     </button>
@@ -188,19 +188,19 @@ export function Footer() {
                 >
                   <div className="flex items-center gap-2 sm:gap-3">
                     <CiMobile1 className="w-6 h-6 font-bold text-lime-400" />
-                    <span className="text-xs sm:text-sm md:text-sm hover:text-white transition-colors xl:text-base ">
+                    <span className="text-xs sm:text-sm md:text-xs hover:text-white transition-colors xl:text-base ">
                       012 1234567 890
                     </span>
                   </div>
                   <div className="flex items-center gap-2 sm:gap-3">
                     <Mail className="w-6 h-6 text-lime-400" />
-                    <span className="text-xs sm:text-sm md:text-sm hover:text-white transition-colors xl:text-base ">
+                    <span className="text-xs sm:text-sm md:text-xs hover:text-white transition-colors xl:text-base ">
                       hello@example.com
                     </span>
                   </div>
                   <div className="flex items-start gap-2 sm:gap-3">
                     <MapPin className="w-6 h-6 text-lime-400 mt-1" />
-                    <span className='text-xs sm:text-sm md:text-sm hover:text-white transition-colors xl:text-base '>
+                    <span className='text-xs sm:text-sm md:text-xs hover:text-white transition-colors xl:text-base '>
                       1 Gibfield Park Avenue Atherton Manchester M46 0SU
                     </span>
                   </div>
@@ -217,7 +217,7 @@ export function Footer() {
                   Where Quotes Meet Purpose.
                 </h2>
               </div>
-              <div className="hidden md:flex items-center relative md:right-10 lg:right-40 md:top-2 lg:top-3 lg:left-0 xl:left-0 transform md:-translate-y-[15%] lg:-translate-y-[35%] 2xl:right-40 xl:right-[5vw]">
+              <div className="hidden md:flex items-center relative md:right-10 lg:right-40 md:top-2 lg:top-3 lg:left-0 xl:left-0 transform md:-translate-y-[12%] lg:-translate-y-[35%] 2xl:right-40 xl:right-[5vw]">
                 {/* <img src="/Vector.svg" alt="" className="h-5 w-5 opacity-80" /> */}
                 <Button
                   onClick={() => navigate("/quote")}
@@ -234,9 +234,9 @@ export function Footer() {
             </div>
 
             {/* Copyright section */}
-            <div className="flex w-full sm:flex-row lg:flex-row justify-between gap-2 lg:px-14 xl:px-16 items-start sm:items-center pb-6 xl:pb-10 md:px-10 text-xs sm:text-sm md:pt-0 text-white sm:gap-4">
+            <div className="flex w-full sm:flex-row lg:flex-row justify-between gap-2 lg:px-14 xl:px-16 items-start sm:items-center pb-6  md:pb-4 xl:pb-10 md:px-16 text-xs sm:text-sm md:pt-0 text-white sm:gap-4">
               <div className="flex">
-                <span className="w-38 md:w-26 lg:w-32 xl:w-36 2xl:w-40">
+                <span className="w-38 md:w-[100px] lg:w-32 xl:w-36 2xl:w-40">
                   <img src="/Swanlogics logo purple.png" alt="logo" />
                 </span>
               </div>
