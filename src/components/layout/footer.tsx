@@ -11,7 +11,7 @@ export function Footer() {
     <>
       {/* Desktop Footer */}
       <footer
-        className="hidden md:block mx-2 sm:mx-4 lg:mx-10 mb-2 sm:mb-4 rounded-b-xl sm:rounded-b-2xl lg:rounded-b-3xl text-white relative overflow-hidden h-[35vw] lg:h-[40vw] xl:h-[40vw] 2xl:h-[40vw] md:h-[40vw]"
+        className="hidden md:block mx-2 sm:mx-4 lg:mx-10 mb-2 sm:mb-4 rounded-b-xl sm:rounded-b-2xl lg:rounded-b-3xl text-white relative overflow-hidden h-[35vw] lg:h-[40vw] xl:h-[42vw] 2xl:h-[40vw] md:h-[40vw] "
         style={{
           backgroundImage: "url(/footer-box.png)",
           backgroundSize: "contain",
@@ -33,8 +33,8 @@ export function Footer() {
         </div>
 
         {/* Social links - Fully responsive positioning */}
-        <div className="absolute bg-transparent z-20 -top-1 sm:-top-2 lg:-top-4 lg:left-20 sm:-left-2 rounded-lg sm:rounded-xl portfoliolg:rounded-2xl xl:rounded-3xl p-1 sm:p-2 xl:left-[2.5vw] xl:top-[-1vw] 2xl:top-[-1vw] 2xl:left-[4vw] md:right-[82vw] md:top-[-2vw] ">
-          <div className="flex lg:flex-col md:flex-col items-center lg:items-start gap-1 sm:gap-2 lg:gap-3 xl:gap-4 p-1 sm:p-2 xl:h-[20vw]">
+        <div className=" absolute bg-transparent  -top-1 sm:-top-2 lg:-top-12 lg:left-20 sm:-left-2 rounded-lg sm:rounded-xl lg:rounded-2xl xl:rounded-3xl p-1 sm:p-2 xl:left-[1.5vw] xl:top-[-1vw] 2xl:top-[-1vw] 2xl:left-[4vw] md:right-[82vw] md:top-[-2vw] ">
+          <div className="flex lg:flex-col md:flex-col items-center lg:items-start gap-1 sm:gap-2 lg:gap-3 xl:gap-4 p-1 sm:p-2 xl:h-[20vw] ">
             <button
               onClick={() =>
                 window.open("https://facebook.com/swanlogics", "_blank")
@@ -74,7 +74,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:pl-40 py-6 sm:py-20 md:py-10 lg:py-14 xl:mt-[-7vw] xl:pb-0 2xl:-mt-5">
+        <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:pl-40 py-6 sm:py-20 md:py-10 lg:py-14 xl:pb-0 2xl:-mt-5">
           {/* Main content section */}
           <div className="mb-6 sm:mb-8 sm:mt-20 md:mb-10 lg:mb-12 xl:pt-10 md:mt-[0vw]">
             {/* Links Container */}
@@ -91,7 +91,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-base block py-1 text-left"
                     >
                       Home
                     </button>
@@ -99,7 +99,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-base block py-1 text-left"
                     >
                       About Us
                     </button>
@@ -107,7 +107,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/services")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-base block py-1 text-left"
                     >
                       Our Services
                     </button>
@@ -115,7 +115,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-base block py-1 text-left"
                     >
                       Our Team
                     </button>
@@ -123,7 +123,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/portfolio")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-base block py-1 text-left"
                     >
                       Portfolio
                     </button>
@@ -143,7 +143,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => alert("Privacy Policy page coming soon!")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-base block py-1 text-left"
                     >
                       Privacy Policy
                     </button>
@@ -153,7 +153,7 @@ export function Footer() {
                       onClick={() =>
                         alert("Terms & Conditions page coming soon!")
                       }
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-base block py-1 text-left"
                     >
                       Terms And Conditions
                     </button>
@@ -161,7 +161,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => alert("FAQ page coming soon!")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-base block py-1 text-left"
                     >
                       FAQ's
                     </button>
@@ -169,7 +169,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/contact")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-base block py-1 text-left"
                     >
                       Contact Us
                     </button>
@@ -188,22 +188,21 @@ export function Footer() {
                 >
                   <div className="flex items-center gap-2 sm:gap-3">
                     <CiMobile1 className="w-6 h-6 font-bold text-lime-400" />
-                    <span className="text-xs sm:text-sm md:text-xs">
+                    <span className="text-xs sm:text-sm md:text-base hover:text-white transition-colors ">
                       012 1234567 890
                     </span>
                   </div>
                   <div className="flex items-center gap-2 sm:gap-3">
                     <Mail className="w-6 h-6 text-lime-400" />
-                    <span className="text-xs sm:text-sm md:text-xs">
+                    <span className="text-xs sm:text-sm md:text-base hover:text-white transition-colors ">
                       hello@example.com
                     </span>
                   </div>
                   <div className="flex items-start gap-2 sm:gap-3">
                     <MapPin className="w-6 h-6 text-lime-400 mt-1" />
-                    <h1>
-                      Welcome to <br className="hidden md:inline lg:hidden" />{" "}
-                      Our Website
-                    </h1>
+                    <span className='text-xs sm:text-sm md:text-base hover:text-white transition-colors '>
+                      1 Gibfield Park Avenue Atherton Manchester M46 0SU
+                    </span>
                   </div>
                 </div>
               </div>
@@ -211,33 +210,33 @@ export function Footer() {
           </div>
 
           {/* Bottom Section */}
-          <div className="w-full absolute bottom-0 left-0 pt-4 sm:pt-6 md:pt-8 xl:bottom-[-2vw] 2xl:bottom-[-2vw]">
+          <div className="w-full absolute bottom-0 left-0 pt-4 sm:pt-6 md:pt-10 xl:bottom-[-1vw] 2xl:bottom-[-2vw]">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center lg:px-32 gap-4 sm:gap-6 mb-4 md:mb-2 sm:mb-6 border-white/40 border-b pb-10 px-20 xl:px-16 xl:pb-5 md:pb-2">
               <div className="w-full md:w-auto">
-                <h2 className="text-sm sm:text-xl md:text-lg lg:text-6xl xl:text-5xl 2xl:text-6xl text-white font-bold font-rf-dewi">
+                <h2 className="text-sm sm:text-xl md:text-lg lg:text-6xl xl:text-[46px] 2xl:text-6xl text-white font-bold font-rf-dewi">
                   Where Quotes Meet Purpose.
                 </h2>
               </div>
               <div className="hidden md:flex items-center relative md:right-10 lg:right-40 md:top-2 lg:top-6 transform md:-translate-y-[15%] lg:-translate-y-[35%] 2xl:right-40 xl:right-[5vw]">
-                <Button
-                  onClick={() => navigate("/quote")}
-                  className="flex !text-brand-ink text-xl items-center rounded-full bg-lime-300 md:w-[18vw] lg:w-[12vw] md:py-1 md:h-8 lg:py-8 font-black xl:py-4 md:text-base lg:text-xl"
-                >
-                  Get A Quote
-                </Button>
-                <GoArrowUpRight className="p-[1.3vw] rounded-full bg-lime-300 text-brand-ink absolute md:left-[17vw] md:text-2xl lg:left-[11vw] 2xl:text-5xl xl:p-[0.5vw] xl:h-[3vw] xl:w-10 2xl:left-[11vw] 2xl:w-[3vw] 2xl:h-[3vw] 2xl:p-4 md:p-1 lg:p-[1.3vw]" />
-                {/* <img
-                  src="/Arrow 1-1.svg"
-                  alt="arrow"
-                  className="p-[1.3vw] rounded-full bg-lime-300 text-brand-ink absolute left-[11vw] xl:p-[1.8vw] xl:w-16 2xl:left-[11vw] 2xl:w-[3vw] 2xl:h-[3vw] 2xl:p-4"
-                /> */}
+                          {/* <img src="/Vector.svg" alt="" className="h-5 w-5 opacity-80" /> */}
+                          <Button
+                            onClick={() => navigate("/quote")}
+                            className="flex !text-brand-ink items-center gap-2 rounded-full bg-lime-300 px-9 py-4 font-bold"
+                          >
+                            Get A Quote
+                          </Button>
+                          <img
+                            src="/Arrow 1-1.svg"
+                            alt="arrow"
+                            className="p-[14px] rounded-full bg-lime-300 text-brand-ink absolute  left-[142px]"
+                          />
               </div>
             </div>
 
             {/* Copyright section */}
             <div className="flex w-full sm:flex-row lg:flex-row justify-between gap-2 lg:px-32 xl:px-16 items-start sm:items-center pb-6 xl:pb-10 md:px-10 text-xs sm:text-sm md:pt-0 text-white sm:gap-4">
               <div className="flex">
-                <span className="w-36 md:w-20">
+                <span className="w-38 md:w-26">
                   <img src="/Swanlogics logo purple.png" alt="logo" />
                 </span>
               </div>
@@ -260,8 +259,8 @@ export function Footer() {
       {/* ---------------- MOBILE VIEW FOOTER ---------------- */}
       <footer className="md:hidden bg-black text-white px-6 pb-10 rounded-3xl  space-y-10 mx-2 mb-2 border-transparent relative z-10 w-full">
         {/* Scroll to top section - Mobile version */}
-        <div className="flex items-center justify-center bg-white rounded-b-xl relative top-[-5vw] w-full h-[20vw] px-4 py-3 mr-4 font-black text-brand-ink">
-          <span className="text-lg whitespace-nowrap">
+        <div className="flex items-center justify-center bg-white rounded-b-xl relative top-[-5vw] w-full h-[22vw] px-4 py-3 mr-4 font-black text-brand-ink">
+          <span className="text-xl whitespace-nowrap">
             Sh*T I've Gone Too Far, Send Me Back Up
           </span>
           <img
@@ -435,7 +434,7 @@ export function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="pt-6 border-t border-white/20 text-center text-sm text-gray-400 space-y-2">
+        <div className="pt-6 border-t border-white/20 text-center text-lg text-gray-400 space-y-3">
           <p>© SwanLogics Ltd 2025</p>
           <p>Web Design Manchester</p>
           <p>All Rights Reserved</p>
