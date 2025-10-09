@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar } from '../components/layout/Navbar';
 import { HeroSection } from '../components/home/HeroSection';
 import StatsSection from '../components/home/StatsSection';
-import AboutSection from '../components/home/AboutSection'
+import AboutSection from '../components/home/AboutSection';
 import { PortfolioShowcase } from '../components/home/portfolio-showcase';
 import { PortfolioGrid } from '../components/home/portfolio-grid';
 import { ServicesSection } from '../components/home/services-section';
