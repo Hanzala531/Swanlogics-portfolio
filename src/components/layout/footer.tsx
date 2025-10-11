@@ -208,6 +208,7 @@ export function Footer() {
               </div>
             </div>
           </div>
+          
 
           {/* Bottom Section */}
           <div className="w-full absolute bottom-0 left-0 pt-4 sm:pt-6 md:pt-10 xl:bottom-[-1vw] 2xl:bottom-[-2vw]">
