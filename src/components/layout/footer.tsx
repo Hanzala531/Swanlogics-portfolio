@@ -208,8 +208,6 @@ export function Footer() {
               </div>
             </div>
           </div>
-          
-
           {/* Bottom Section */}
           <div className="w-full absolute bottom-0 left-0 pt-4 sm:pt-6 md:pt-10 xl:bottom-[-1vw] 2xl:bottom-[-2vw]">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center lg:px-14 gap-4 sm:gap-6 mb-4 md:mb-2 sm:mb-6 border-white/40 border-b pb-10 px-20 xl:px-16 xl:pb-5 md:pb-2">
