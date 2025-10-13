@@ -11,7 +11,7 @@ export function Footer() {
     <>
       {/* Desktop Footer */}
       <footer
-        className="hidden md:block mx-2 sm:mx-4 lg:mx-10 mb-2 sm:mb-4 rounded-b-xl sm:rounded-b-2xl lg:rounded-b-3xl text-white relative overflow-hidden h-[35vw] lg:h-[40vw] xl:h-[40vw] 2xl:h-[40vw] md:h-[40vw]"
+        className="hidden md:block mx-2 sm:mx-4 lg:mx-10 mb-2 sm:mb-4 rounded-b-xl sm:rounded-b-2xl lg:rounded-b-3xl text-white relative  h-[35vw] lg:h-[41vw] xl:h-[42vw] 2xl:h-[40vw] md:h-[40vw] "
         style={{
           backgroundImage: "url(/footer-box.png)",
           backgroundSize: "contain",
@@ -20,27 +20,27 @@ export function Footer() {
         }}
       >
         {/* Footer right design - Hidden on mobile and tablets */}
-        <div className="absolute flex items-center justify-center bg-transparent z-10 -top-1 sm:-top-4 lg:top-2 lg:right-16 sm:-right-1 px-4 sm:px-6 lg:pr-8 w-20 sm:w-80 lg:w-[25rem] xl:w-[30rem] h-10 sm:h-12 lg:h-16 font-black text-brand-ink xl:top-[-1vw] xl:right-[-5vw] 2xl:top-[0vw] 2xl:right-[3vw] md:right-[-8vw]">
-          <span className="text-xl sm:text-sm lg:text-[22px] inline-block whitespace-nowrap xl:text-[14px] 2xl:text-[23px] md:text-[8px]">
+        <div className="absolute flex items-center justify-center bg-transparent z-10 -top-1 sm:-top-4 lg:-top-3 lg:-right-24 sm:-right-1 px-4 sm:px-6 lg:pr-8 w-20 sm:w-80 lg:w-[25rem] xl:w-[30rem] h-10 sm:h-12 lg:h-16 font-black text-brand-ink xl:top-[-1vw] xl:right-[-5vw] 2xl:top-[0vw] 2xl:right-[3vw] md:right-[-8vw]">
+          <span className="text-xl sm:text-sm lg:text-[12px] inline-block whitespace-nowrap xl:text-[16px] 2xl:text-[23px] md:text-[8px]">
             Sh*T I’ve Gone Too Far, Send Me Back Up
           </span>
           <img
             src="/footer-hand.png"
             alt="footer-hand"
-            className="w-auto h-4 sm:w-auto sm:h-8 ml-20 lg:relative lg:right-12 lg:h-6 cursor-pointer hover:scale-110 transition-transform xl:right-16 md:h-4 md:relative md:right-[9vw]"
+            className="w-auto h-4 sm:w-auto sm:h-8 ml-20 lg:relative lg:right-16 lg:h-6 cursor-pointer hover:scale-110 transition-transform xl:right-16 md:h-4 md:relative md:right-[9vw]"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           />
         </div>
 
         {/* Social links - Fully responsive positioning */}
-        <div className="absolute bg-transparent z-20 -top-1 sm:-top-2 lg:-top-4 lg:left-20 sm:-left-2 rounded-lg sm:rounded-xl portfoliolg:rounded-2xl xl:rounded-3xl p-1 sm:p-2 xl:left-[2.5vw] xl:top-[-1vw] 2xl:top-[-1vw] 2xl:left-[4vw] md:right-[82vw] md:top-[-2vw] ">
-          <div className="flex lg:flex-col md:flex-col items-center lg:items-start gap-1 sm:gap-2 lg:gap-3 xl:gap-4 p-1 sm:p-2 xl:h-[20vw]">
+        <div className=" absolute bg-transparent  -top-1 sm:-top-2 lg:-top-6 lg:-left-0 sm:-left-2 rounded-lg sm:rounded-xl lg:rounded-2xl xl:rounded-3xl p-1 sm:p-2 xl:left-[1.5vw] xl:top-[-1vw] 2xl:top-[-1vw] 2xl:left-[4vw] md:right-[82vw] md:top-[-2vw] ">
+          <div className="flex lg:flex-col md:flex-col items-center lg:items-start gap-1 sm:gap-2 lg:gap-2 xl:gap-4 p-1 sm:p-2 xl:h-[20vw] ">
             <button
               onClick={() =>
                 window.open("https://facebook.com/swanlogics", "_blank")
               }
               aria-label="Facebook"
-              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10 xl:h-10 xl:w-10 md:w-5 md:h-5 place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors"
+              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-8 lg:w-8 xl:h-10 xl:w-10 md:w-5 md:h-5 place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors"
             >
               <Facebook className="h-2.5 w-2.5 sm:h-3 sm:w-3 lg:h-4 lg:w-4 xl:h-4 xl:w-4 md:h-3 md:w-3 text-white" />
             </button>
@@ -49,7 +49,7 @@ export function Footer() {
                 window.open("https://instagram.com/swanlogics", "_blank")
               }
               aria-label="Instagram"
-              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10 xl:h-10 xl:w-10 md:w-5 md:h-5 place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors"
+              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-8 lg:w-8 xl:h-10 xl:w-10 md:w-5 md:h-5 place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors"
             >
               <Instagram className="h-2.5 w-2.5 sm:h-3 sm:w-3 lg:h-4 lg:w-4 xl:h-4 xl:w-4 md:h-3 md:w-3 text-white" />
             </button>
@@ -58,7 +58,7 @@ export function Footer() {
                 window.open("https://twitter.com/swanlogics", "_blank")
               }
               aria-label="Twitter/X"
-              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10 xl:h-10 xl:w-10 md:w-5 md:h-5 place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors"
+              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-8 lg:w-8 xl:h-10 xl:w-10 md:w-5 md:h-5 place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors"
             >
               <X className="h-2.5 w-2.5 sm:h-3 sm:w-3 lg:h-4 lg:w-4 xl:h-4 xl:w-4 md:h-3 md:w-3 text-white" />
             </button>
@@ -67,31 +67,31 @@ export function Footer() {
                 window.open("https://linkedin.com/company/swanlogics", "_blank")
               }
               aria-label="LinkedIn"
-              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10 xl:h-10 xl:w-10 md:w-5 md:h-5  place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors"
+              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-8 lg:w-8 xl:h-10 xl:w-10 md:w-5 md:h-5  place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors"
             >
               <Linkedin className="h-2.5 w-2.5 sm:h-3 sm:w-3 lg:h-4 lg:w-4 xl:h-4 xl:w-4 md:h-3 md:w-3 text-white" />
             </button>
           </div>
         </div>
 
-        <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:pl-40 py-6 sm:py-20 md:py-10 lg:py-14 xl:mt-[-7vw] xl:pb-0 2xl:-mt-5">
+        <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:pl-40 py-6 sm:py-20 md:py-10 lg:py-14 xl:pb-0 2xl:-mt-5">
           {/* Main content section */}
           <div className="mb-6 sm:mb-8 sm:mt-20 md:mb-10 lg:mb-12 xl:pt-10 md:mt-[0vw]">
             {/* Links Container */}
             <div className="w-[90%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-3 gap-2 sm:gap-2 md:gap-6 lg:gap-6 xl:gap-5 2xl:gap-10 lg:ml-10 md:ml-[20vw]">
               {/* Explore Links */}
-              <div className="space-y-3 sm:space-y-4 mt-2 md:mt-[0vw] ">
-                <h3 className="text-lg sm:text-xl md:text-sm lg:text-3xl xl:text-4xl 2xl:text-5xl text-white font-bold mb-3 sm:mb-4 lg:mb-5 xl:mb-6">
+              <div className="space-y-3 sm:space-y-4 mt-2 md:mt-[0vw]  ">
+                <h3 className="text-lg sm:text-xl md:text-sm lg:text-2xl xl:text-4xl 2xl:text-5xl text-white font-bold mb-3 sm:mb-4 lg:mb-5 xl:mb-6">
                   Explore
                 </h3>
                 <ul
-                  className="space-y-2 sm:space-y-3 lg:space-y-4 md:space-y-0"
+                  className="space-y-2 sm:space-y-3 lg:space-y-3 xl:space-y-5 md:space-y-0"
                   style={{ color: "#696969" }}
                 >
                   <li>
                     <button
                       onClick={() => navigate("/")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Home
                     </button>
@@ -99,7 +99,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       About Us
                     </button>
@@ -107,7 +107,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/services")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Our Services
                     </button>
@@ -115,7 +115,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Our Team
                     </button>
@@ -123,7 +123,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/portfolio")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Portfolio
                     </button>
@@ -133,17 +133,17 @@ export function Footer() {
 
               {/* Useful Links */}
               <div className="space-y-3 sm:space-y-4  md:mt-[0vw] md:space-y-1 ">
-                <h3 className="text-lg sm:text-xl md:text-sm lg:text-3xl xl:text-4xl 2xl:text-5xl text-white font-bold mb-3 sm:mb-4 lg:mb-5 xl:mb-6">
+                <h3 className="text-lg sm:text-xl md:text-sm lg:text-2xl xl:text-4xl 2xl:text-5xl text-white font-bold mb-3 sm:mb-4 lg:mb-5 xl:mb-6">
                   Useful Links
                 </h3>
                 <ul
-                  className="space-y-2 sm:space-y-3 lg:space-y-4  md:space-y-1"
+                  className="space-y-2 sm:space-y-3 lg:space-y-3 xl:space-y-4  md:space-y-1"
                   style={{ color: "#696969" }}
                 >
                   <li>
                     <button
                       onClick={() => alert("Privacy Policy page coming soon!")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Privacy Policy
                     </button>
@@ -153,7 +153,7 @@ export function Footer() {
                       onClick={() =>
                         alert("Terms & Conditions page coming soon!")
                       }
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Terms And Conditions
                     </button>
@@ -161,7 +161,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => alert("FAQ page coming soon!")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       FAQ's
                     </button>
@@ -169,7 +169,7 @@ export function Footer() {
                   <li>
                     <button
                       onClick={() => navigate("/contact")}
-                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left"
+                      className="hover:text-white transition-colors text-xs sm:text-sm md:text-xs block py-1 text-left xl:text-base "
                     >
                       Contact Us
                     </button>
@@ -179,65 +179,63 @@ export function Footer() {
 
               {/* Get In Touch */}
               <div className="sm:col-span-2 md:col-span-1 lg:col-span-1 space-y-3 sm:space-y-4  md:mt-[2vw] ">
-                <h3 className="text-lg sm:text-xl md:text-sm lg:text-3xl xl:text-4xl 2xl:text-5xl text-white font-bold mb-3 sm:mb-4 lg:mb-5 xl:mb-6">
+                <h3 className="text-lg sm:text-xl md:text-sm lg:text-2xl xl:text-4xl 2xl:text-5xl text-white font-bold mb-3 sm:mb-4 lg:mb-5 xl:mb-6">
                   Get In Touch
                 </h3>
                 <div
-                  className="space-y-3 sm:space-y-4 lg:space-y-5  md:space-y-1"
+                  className="space-y-3 sm:space-y-4 lg:space-y-4 xl:space-y-5  md:space-y-1"
                   style={{ color: "#696969" }}
                 >
                   <div className="flex items-center gap-2 sm:gap-3">
                     <CiMobile1 className="w-6 h-6 font-bold text-lime-400" />
-                    <span className="text-xs sm:text-sm md:text-xs">
+                    <span className="text-xs sm:text-sm md:text-xs hover:text-white transition-colors xl:text-base ">
                       012 1234567 890
                     </span>
                   </div>
                   <div className="flex items-center gap-2 sm:gap-3">
                     <Mail className="w-6 h-6 text-lime-400" />
-                    <span className="text-xs sm:text-sm md:text-xs">
+                    <span className="text-xs sm:text-sm md:text-xs hover:text-white transition-colors xl:text-base ">
                       hello@example.com
                     </span>
                   </div>
                   <div className="flex items-start gap-2 sm:gap-3">
                     <MapPin className="w-6 h-6 text-lime-400 mt-1" />
-                    <h1>
-                      Welcome to <br className="hidden md:inline lg:hidden" />{" "}
-                      Our Website
-                    </h1>
+                    <span className='text-xs sm:text-sm md:text-xs hover:text-white transition-colors xl:text-base '>
+                      1 Gibfield Park Avenue Atherton Manchester M46 0SU
+                    </span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           {/* Bottom Section */}
-          <div className="w-full absolute bottom-0 left-0 pt-4 sm:pt-6 md:pt-8 xl:bottom-[-2vw] 2xl:bottom-[-2vw]">
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center lg:px-32 gap-4 sm:gap-6 mb-4 md:mb-2 sm:mb-6 border-white/40 border-b pb-10 px-20 xl:px-16 xl:pb-5 md:pb-2">
-              <div className="w-full md:w-auto">
-                <h2 className="text-sm sm:text-xl md:text-lg lg:text-6xl xl:text-5xl 2xl:text-6xl text-white font-bold font-rf-dewi">
+          <div className="w-full absolute bottom-0 left-0 pt-4 sm:pt-6 md:pt-10 xl:bottom-[-1vw] 2xl:bottom-[-2vw]">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center lg:px-14 gap-4 sm:gap-6 mb-4 md:mb-2 sm:mb-6 border-white/40 border-b pb-10 px-20 xl:px-16 xl:pb-5 md:pb-2">
+              <div className="w-full md:w-auto  ">
+                <h2 className="text-sm sm:text-xl md:text-lg lg:text-4xl xl:text-[46px] 2xl:text-6xl text-white font-bold font-rf-dewi">
                   Where Quotes Meet Purpose.
                 </h2>
               </div>
-              <div className="hidden md:flex items-center relative md:right-10 lg:right-40 md:top-2 lg:top-6 transform md:-translate-y-[15%] lg:-translate-y-[35%] 2xl:right-40 xl:right-[5vw]">
+              <div className="hidden md:flex items-center relative md:right-10 lg:right-40 md:top-2 lg:top-3 lg:left-0 xl:left-0 transform md:-translate-y-[12%] lg:-translate-y-[35%] 2xl:right-40 xl:right-[5vw]">
+                {/* <img src="/Vector.svg" alt="" className="h-5 w-5 opacity-80" /> */}
                 <Button
                   onClick={() => navigate("/quote")}
-                  className="flex !text-brand-ink text-xl items-center rounded-full bg-lime-300 md:w-[18vw] lg:w-[12vw] md:py-1 md:h-8 lg:py-8 font-black xl:py-4 md:text-base lg:text-xl"
+                  className="flex !text-brand-ink items-center gap-2 rounded-full bg-lime-300 px-9 py-4 font-bold"
                 >
                   Get A Quote
                 </Button>
-                <GoArrowUpRight className="p-[1.3vw] rounded-full bg-lime-300 text-brand-ink absolute md:left-[17vw] md:text-2xl lg:left-[11vw] 2xl:text-5xl xl:p-[0.5vw] xl:h-[3vw] xl:w-10 2xl:left-[11vw] 2xl:w-[3vw] 2xl:h-[3vw] 2xl:p-4 md:p-1 lg:p-[1.3vw]" />
-                {/* <img
+                <img
                   src="/Arrow 1-1.svg"
                   alt="arrow"
-                  className="p-[1.3vw] rounded-full bg-lime-300 text-brand-ink absolute left-[11vw] xl:p-[1.8vw] xl:w-16 2xl:left-[11vw] 2xl:w-[3vw] 2xl:h-[3vw] 2xl:p-4"
-                /> */}
+                  className="p-[14px] rounded-full bg-lime-300 text-brand-ink absolute  left-[142px]"
+                />
               </div>
             </div>
 
             {/* Copyright section */}
-            <div className="flex w-full sm:flex-row lg:flex-row justify-between gap-2 lg:px-32 xl:px-16 items-start sm:items-center pb-6 xl:pb-10 md:px-10 text-xs sm:text-sm md:pt-0 text-white sm:gap-4">
+            <div className="flex w-full sm:flex-row lg:flex-row justify-between gap-2 lg:px-14 xl:px-16 items-start sm:items-center pb-6  md:pb-4 xl:pb-10 md:px-16 text-xs sm:text-sm md:pt-0 text-white sm:gap-4">
               <div className="flex">
-                <span className="w-36 md:w-20">
+                <span className="w-38 md:w-[100px] lg:w-32 xl:w-36 2xl:w-40">
                   <img src="/Swanlogics logo purple.png" alt="logo" />
                 </span>
               </div>
@@ -260,8 +258,8 @@ export function Footer() {
       {/* ---------------- MOBILE VIEW FOOTER ---------------- */}
       <footer className="md:hidden bg-black text-white px-6 pb-10 rounded-3xl  space-y-10 mx-2 mb-2 border-transparent relative z-10 w-full">
         {/* Scroll to top section - Mobile version */}
-        <div className="flex items-center justify-center bg-white rounded-b-xl relative top-[-5vw] w-full h-[20vw] px-4 py-3 mr-4 font-black text-brand-ink">
-          <span className="text-lg whitespace-nowrap">
+        <div className="flex items-center justify-center bg-white rounded-b-xl relative top-[-5vw] w-full h-[22vw] px-4 py-3 mr-4 font-black text-brand-ink">
+          <span className="text-xl whitespace-nowrap">
             Sh*T I've Gone Too Far, Send Me Back Up
           </span>
           <img
@@ -435,7 +433,7 @@ export function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="pt-6 border-t border-white/20 text-center text-sm text-gray-400 space-y-2">
+        <div className="pt-6 border-t border-white/20 text-center text-lg text-gray-400 space-y-3">
           <p>© SwanLogics Ltd 2025</p>
           <p>Web Design Manchester</p>
           <p>All Rights Reserved</p>
