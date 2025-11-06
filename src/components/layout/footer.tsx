@@ -20,7 +20,7 @@ export function Footer() {
         }}
       >
         {/* Footer right design - Hidden on mobile and tablets */}
-        <div className="absolute flex items-center justify-center bg-transparent z-10 -top-1 sm:-top-4 lg:-top-3 lg:-right-24 sm:-right-1 px-4 sm:px-6 lg:pr-8 w-20 sm:w-80 lg:w-[25rem] xl:w-[30rem] h-10 sm:h-12 lg:h-16 font-black text-brand-ink xl:top-[-1vw] xl:right-[-5vw] 2xl:top-[0vw] 2xl:right-[3vw] md:right-[-8vw]">
+        {/* <div className="absolute flex items-center justify-center bg-transparent z-10 -top-1 sm:-top-4 lg:-top-3 lg:-right-24 sm:-right-1 px-4 sm:px-6 lg:pr-8 w-20 sm:w-80 lg:w-[25rem] xl:w-[30rem] h-10 sm:h-12 lg:h-16 font-black text-brand-ink xl:top-[-1vw] xl:right-[-5vw] 2xl:top-[0vw] 2xl:right-[3vw] md:right-[-8vw]">
           <span className="text-xl sm:text-sm lg:text-[12px] inline-block whitespace-nowrap xl:text-[16px] 2xl:text-[23px] md:text-[8px]">
             Sh*T I’ve Gone Too Far, Send Me Back Up
           </span>
@@ -30,46 +30,46 @@ export function Footer() {
             className="w-auto h-4 sm:w-auto sm:h-8 ml-20 lg:relative lg:right-16 lg:h-6 cursor-pointer hover:scale-110 transition-transform xl:right-16 md:h-4 md:relative md:right-[9vw]"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           />
-        </div>
+        </div> */}
 
         {/* Social links - Fully responsive positioning */}
-        <div className=" absolute bg-transparent  -top-1 sm:-top-2 lg:-top-6 lg:-left-0 sm:-left-2 rounded-lg sm:rounded-xl lg:rounded-2xl xl:rounded-3xl p-1 sm:p-2 xl:left-[1.5vw] xl:top-[-1vw] 2xl:top-[-1vw] 2xl:left-[4vw] md:right-[82vw] md:top-[-2vw] ">
-          <div className="flex lg:flex-col md:flex-col items-center lg:items-start gap-1 sm:gap-2 lg:gap-2 xl:gap-4 p-1 sm:p-2 xl:h-[20vw] ">
+        <div className=" absolute bg-transparent  -top-1 sm:-top-2 lg:-top-6 lg:-left-0 sm:-left-2 rounded-lg sm:rounded-xl lg:rounded-2xl xl:rounded-3xl p-1 sm:p-2 xl:left-[1.5vw] xl:top-[-1vw] 2xl:top-[-1vw] 2xl:left-[6vw] md:right-[82vw] md:top-[-2vw] ">
+          <div className="flex lg:flex-col md:flex-col items-center lg:items-start gap-1 sm:gap-2 lg:gap-2 xl:gap-4 p-1 sm:p-2 xl:h-[20vw] 2xl:h-[22vw] md:h-[18vw]">
             <button
               onClick={() =>
                 window.open("https://facebook.com/swanlogics", "_blank")
               }
               aria-label="Facebook"
-              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-8 lg:w-8 xl:h-10 xl:w-10 md:w-5 md:h-5 place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors"
+              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-8 lg:w-8 xl:h-10 xl:w-10 md:w-5 md:h-5  place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors 2xl:h-[75px] 2xl:w-[75px]"
             >
-              <Facebook className="h-2.5 w-2.5 sm:h-3 sm:w-3 lg:h-4 lg:w-4 xl:h-4 xl:w-4 md:h-3 md:w-3 text-white" />
+              <Facebook className="h-2.5 w-2.5 sm:h-3 sm:w-3 lg:h-4 lg:w-4 xl:h-4 xl:w-4 md:h-3 md:w-3 text-white 2xl:h-8 2xl:w-8" />
             </button>
             <button
               onClick={() =>
                 window.open("https://instagram.com/swanlogics", "_blank")
               }
               aria-label="Instagram"
-              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-8 lg:w-8 xl:h-10 xl:w-10 md:w-5 md:h-5 place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors"
+              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-8 lg:w-8 xl:h-10 xl:w-10 md:w-5 md:h-5  place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors 2xl:h-[75px] 2xl:w-[75px]"
             >
-              <Instagram className="h-2.5 w-2.5 sm:h-3 sm:w-3 lg:h-4 lg:w-4 xl:h-4 xl:w-4 md:h-3 md:w-3 text-white" />
+              <Instagram className="h-2.5 w-2.5 sm:h-3 sm:w-3 lg:h-4 lg:w-4 xl:h-4 xl:w-4 md:h-3 md:w-3 text-white 2xl:h-8 2xl:w-8" />
             </button>
             <button
               onClick={() =>
                 window.open("https://twitter.com/swanlogics", "_blank")
               }
               aria-label="Twitter/X"
-              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-8 lg:w-8 xl:h-10 xl:w-10 md:w-5 md:h-5 place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors"
+              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-8 lg:w-8 xl:h-10 xl:w-10 md:w-5 md:h-5  place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors 2xl:h-[75px] 2xl:w-[75px]"
             >
-              <X className="h-2.5 w-2.5 sm:h-3 sm:w-3 lg:h-4 lg:w-4 xl:h-4 xl:w-4 md:h-3 md:w-3 text-white" />
+              <X className="h-2.5 w-2.5 sm:h-3 sm:w-3 lg:h-4 lg:w-4 xl:h-4 xl:w-4 md:h-3 md:w-3 text-white 2xl:h-8 2xl:w-8" />
             </button>
             <button
               onClick={() =>
                 window.open("https://linkedin.com/company/swanlogics", "_blank")
               }
               aria-label="LinkedIn"
-              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-8 lg:w-8 xl:h-10 xl:w-10 md:w-5 md:h-5  place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors"
+              className="grid h-6 w-6 sm:h-8 sm:w-8 lg:h-8 lg:w-8 xl:h-10 xl:w-10 md:w-5 md:h-5  place-items-center rounded-full bg-brand-purple hover:bg-brand-purple transition-colors 2xl:h-[75px] 2xl:w-[75px]"
             >
-              <Linkedin className="h-2.5 w-2.5 sm:h-3 sm:w-3 lg:h-4 lg:w-4 xl:h-4 xl:w-4 md:h-3 md:w-3 text-white" />
+              <Linkedin className="h-2.5 w-2.5 sm:h-3 sm:w-3 lg:h-4 lg:w-4 xl:h-4 xl:w-4 md:h-3 md:w-3 text-white 2xl:h-8 2xl:w-8" />
             </button>
           </div>
         </div>
