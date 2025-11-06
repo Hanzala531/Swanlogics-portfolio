@@ -1,0 +1,145 @@
+/*
+  Custom DPI-based styles for HeroSection action buttons and container
+  Handles scaling for 110%, 125%, 133%, 140%, 150% using media queries for device-pixel-ratio (DPI)
+*/
+
+/* Default styles (100%) */
+.hero-actions {
+  gap: 3rem;
+  margin-bottom: 0.5rem;
+  position: absolute;
+  top: 3rem;
+  left: 16rem;
+}
+.hero-btn {
+  padding: 0.75rem 3rem;
+  font-size: 1rem;
+}
+.hero-btn-secondary {
+  padding: 0.75rem 3rem;
+  font-size: 1rem;
+}
+.hero-btn-arrow {
+  width: 13px;
+  height: 13px;
+}
+.hero-btn-arrow-wrapper {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+.hero-btn-arrow-bg {
+  padding: 0.9rem;
+  left: 12rem;
+  top: 0.2rem;
+}
+
+/* 110% zoom (DPI ~110) */
+@media (min-resolution: 110dpi) and (max-resolution: 124dpi) {
+  .hero-actions {
+    gap: 2rem;
+    top: 2rem;
+    left: 13rem;
+  }
+  .hero-btn, .hero-btn-secondary {
+    padding: 0.5rem 2.5rem;
+    font-size: 0.95rem;
+  }
+  .hero-btn-arrow {
+    width: 12px;
+    height: 12px;
+  }
+  .hero-btn-arrow-bg {
+    padding: 0.45rem;
+    left: 5.5rem;
+    top: 0;
+  }
+}
+
+/* 125% zoom (DPI ~120-125) */
+@media (min-resolution: 120dpi) and (max-resolution: 132dpi) {
+  .hero-actions {
+    gap: 3rem;
+    top: 2rem;
+    left: 13rem;
+  }
+  .hero-btn, .hero-btn-secondary {
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
+  }
+  .hero-btn-arrow {
+    width: 11px;
+    height: 11px;
+  }
+  .hero-btn-arrow-bg {
+    padding: 1.1rem;
+    left: 9.5rem;
+    top: 0;
+  }
+}
+
+/* 133% zoom (DPI ~133-140) */
+@media (min-resolution: 133dpi) and (max-resolution: 139dpi) {
+  .hero-actions {
+    gap: 0.7rem;
+    top: 1.4rem;
+    left: 0.7rem;
+  }
+  .hero-btn, .hero-btn-secondary {
+    padding: 0.35rem 1rem;
+    font-size: 0.85rem;
+  }
+  .hero-btn-arrow {
+    width: 10px;
+    height: 10px;
+  }
+  .hero-btn-arrow-bg {
+    padding: 0.35rem;
+    left: 30rem;
+    top: 0;
+  }
+}
+
+/* 140% zoom (DPI ~140-150) */
+@media (min-resolution: 130dpi) and (max-resolution: 149dpi) {
+  .hero-actions {
+    gap: 3rem;
+    top: 1.2rem;
+    left: 12rem;
+  }
+  .hero-btn, .hero-btn-secondary {
+    padding: 0.8rem 2rem;
+    font-size: 0.8rem;
+  }
+  .hero-btn-arrow {
+    width: 9px;
+    height: 9px;
+  }
+  .hero-btn-arrow-bg {
+    padding: 1.1rem;
+    left: 9rem;
+    top: 0;
+  }
+}
+
+/* 150% zoom (DPI 150+) */
+@media (min-resolution: 140dpi) {
+  .hero-actions {
+    gap: 3rem;
+    top: 1.5rem;
+    left: 11rem;
+  }
+  .hero-btn, .hero-btn-secondary {
+    padding: 0.7rem 2rem;
+    font-size: 0.75rem;
+  }
+  .hero-btn-arrow {
+    width: 8px;
+    height: 8px;
+  }
+  .hero-btn-arrow-bg {
+    padding: 1rem;
+    left: 8.5rem;
+    top: 0;
+  }
+}
