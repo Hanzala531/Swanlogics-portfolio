@@ -46,10 +46,20 @@ export function HeroSection() {
           [@media(min-width:720px)_and_(max-width:768px)]:gap-10
           [@media(min-width:720px)_and_(max-width:768px)]:left-28
           [@media(min-width:720px)_and_(max-width:768px)]:top-14
-          [@media(min-width:845px)_and_(max-width:1023px)]:left-32
-          [@media(min-width:1058px)_and_(max-width:1280px)]:left-44
-           [@media(min-width:1336px)_and_(max-width:1570px)]:left-56
-          md:gap-12 lg:gap-8 mb-2 relative top-8 sm:top-12 md:top-[65px] lg:left-[99px]  lg:top-[99px] left-4 sm:left-8 md:left-20  xl:top-[107px] xl:left-44 2xl:top-[110px] 2xl:left-[250px]   ">
+          [@media(min-width:845px)_and_(max-width:1024px)]:left-32
+          [@media(min-width:1024px)_and_(max-width:1158px)]:left-24
+          [@media(min-width:1058px)_and_(max-width:1087px)]:left-28          
+          [@media(min-width:1087px)_and_(max-width:1120px)]:left-32          
+          [@media(min-width:1120px)_and_(max-width:1150px)]:left-36          
+          [@media(min-width:1150px)_and_(max-width:1179px)]:left-40          
+          [@media(min-width:1179px)_and_(max-width:1269px)]:left-44          
+          [@media(min-width:1169px)_and_(max-width:1340px)]:left-44
+          [@media(min-width:1340px)_and_(max-width:1390px)]:left-48                    
+          [@media(min-width:1390px)_and_(max-width:1570px)]:left-56
+          [@media(min-width:1570px)_and_(max-width:1700px)]:left-60
+          [@media(min-width:1570px)]:top-[129px]
+          [@media(min-width:1700px)_and_(max-width:1920px)]:left-64
+          md:gap-12 lg:gap-8 mb-2 relative top-8 sm:top-12 md:top-[65px]   lg:top-[99px] left-4 sm:left-8 md:left-20  xl:top-[107px] xl:left-44 2xl:top-[110px] 2xl:left-[250px]   ">
             <a
               href="#projects"
               className="inline-flex items-center gap-2 rounded-full bg-brand-purple px-1 sm:px-4 md:px-4 lg:px-5 py-1 sm:py-2.5 md:py-2 font-dewi text-xs sm:text-sm md:text-sm text-white shadow hover:bg-brand-purple/90 transition-colors whitespace-nowrap xl:px-6"
@@ -58,7 +68,7 @@ export function HeroSection() {
             </a>
             <div className='rounded-full bg-brand-purple  absolute p-2 sm:p-3 [@media(min-width:635px)_and_(max-width:720px)]:p-[15px]
             [@media(min-width:720px)_and_(max-width:768px)]:p-[16px]
-            lg:p-[13px] left-24 sm:left-28 md:left-22 md:p-[19px] lg:-top-[0px]  lg:left-[120px] xl:-top-[3px] xl:left-32 xl:p-[15px]'>
+            lg:p-[13px] left-24 sm:left-28 md:left-22 md:p-[19px] lg:-top-[0px]   xl:-top-[3px] xl:left-32 xl:p-[15px]'>
               <img
               src="/Arrow white.svg"
               alt="arrow"
