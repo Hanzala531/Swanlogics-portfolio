@@ -1,4 +1,4 @@
-import "./HeroSection.dpi.css";
+// import "./HeroSection.dpi.css";
 import { ArrowUpRight } from "lucide-react";
 
 export function HeroSection() {
@@ -40,14 +40,25 @@ export function HeroSection() {
         {/* Video within rectangle frame */}
         <div className="relative w-full -mt-10 mx-auto">
           {/* Desktop Action Buttons - Floating above video */}
-          <div className="hidden sm:flex gap-4 md:gap-12 lg:gap-10 mb-2 relative top-8 sm:top-12 md:top-18 lg:left-[99px]  lg:top-[96px] left-4 sm:left-8 md:left-20 xl:gap-14 xl:top-[102px] xl:left-52 2xl:left-[380px]   ">
+          <div className="hidden sm:flex gap-4 [@media(min-width:635px)_and_(max-width:720px)]:left-20
+          [@media(min-width:635px)_and_(max-width:720px)]:top-14
+           [@media(min-width:635px)_and_(max-width:720px)]:gap-7 
+          [@media(min-width:720px)_and_(max-width:768px)]:gap-10
+          [@media(min-width:720px)_and_(max-width:768px)]:left-28
+          [@media(min-width:720px)_and_(max-width:768px)]:top-14
+          [@media(min-width:845px)_and_(max-width:1023px)]:left-32
+          [@media(min-width:1058px)_and_(max-width:1280px)]:left-44
+           [@media(min-width:1336px)_and_(max-width:1570px)]:left-56
+          md:gap-12 lg:gap-8 mb-2 relative top-8 sm:top-12 md:top-[65px] lg:left-[99px]  lg:top-[99px] left-4 sm:left-8 md:left-20  xl:top-[107px] xl:left-44 2xl:top-[110px] 2xl:left-[250px]   ">
             <a
               href="#projects"
               className="inline-flex items-center gap-2 rounded-full bg-brand-purple px-1 sm:px-4 md:px-4 lg:px-5 py-1 sm:py-2.5 md:py-2 font-dewi text-xs sm:text-sm md:text-sm text-white shadow hover:bg-brand-purple/90 transition-colors whitespace-nowrap xl:px-6"
             >
               View Our Work
             </a>
-            <div className='rounded-full bg-brand-purple  absolute p-2 sm:p-3  lg:p-[16px] left-24 sm:left-28 md:left-22 md:p-[19px] lg:-top-[2px]  lg:left-[116px] xl:-top-[3px] xl:left-32 xl:p-[16px]'>
+            <div className='rounded-full bg-brand-purple  absolute p-2 sm:p-3 [@media(min-width:635px)_and_(max-width:720px)]:p-[15px]
+            [@media(min-width:720px)_and_(max-width:768px)]:p-[16px]
+            lg:p-[13px] left-24 sm:left-28 md:left-22 md:p-[19px] lg:-top-[0px]  lg:left-[120px] xl:-top-[3px] xl:left-32 xl:p-[15px]'>
               <img
               src="/Arrow white.svg"
               alt="arrow"
@@ -78,8 +89,8 @@ export function HeroSection() {
             />
           </div>
 
-          {/* Desktop Wheel decoration - only show on larger screens */}
-          <div className="absolute -top-20 sm:-top-30 md:-top-28 lg:-top-48 xl:-top-32   right-24 w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 hidden sm:block ">
+          {/* Desktop Wheel decoration - only show on larger screens, hide in custom range */}
+          <div className="absolute -top-20 sm:-top-30 md:-top-28 lg:-top-48 xl:-top-32 right-24 w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 hidden md:block custom:hidden">
             <img
               src="/wheel.png"
               alt="decorative wheel"

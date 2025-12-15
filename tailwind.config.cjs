@@ -3,6 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
     extend: {
+      screens: {
+        'custom': '(min-width: 635px) and (max-width: 765px)',
+      },
       colors: {
         brand: {
           purple: '#9B82F6',
