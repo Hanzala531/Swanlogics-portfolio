@@ -329,10 +329,11 @@ export default function QuoteRequestForm() {
       <main>
         <div className="max-w-4xl mx-auto py-16 px-4">
           {/* Header */}
-          <header className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <header className=" mb-2">
+            <h1 className="text-4xl font-bold text-gray-900 s">
               Ready to start your project?
             </h1>
+            <p className='text-[#696969] text-lg '>Fill out the form below and we’ll get back to you within 24 hours.</p>
           </header>
 
           <form onSubmit={handleSubmit}>
@@ -604,7 +605,7 @@ export default function QuoteRequestForm() {
                         className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
                       />
                       <span className="ml-3 text-sm text-gray-700">
-                        Schedule Consultation Call
+                       Schedule a Proposal Call
                       </span>
                     </label>
 
@@ -622,12 +623,12 @@ export default function QuoteRequestForm() {
                     </label>
                   </div>
               {/* Submit Button */}
-              <div className="text-center absolute top-60 left-22">
+              <div className="text-center  w-full absolute top-60   ">
                 <button
                   type="submit"
                   disabled={!isFormValid() || isSubmitting}
-                  className={`px-12 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 transform flex items-center justify-center ${isFormValid() && !isSubmitting
-                      ? 'bg-lime-500 hover:bg-lime-600 text-white hover:scale-105 shadow-lg hover:shadow-xl'
+                  className={`relative left-20 px-12 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform flex items-center justify-center ${isFormValid() && !isSubmitting
+                      ? 'bg-[#D0FF71] hover:bg-lime-600 text-black hover:scale-105 shadow-lg hover:shadow-xl hover:text-white'
                       : 'bg-lime-300 text-gray-500 cursor-not-allowed'
                     }`}
                 >
@@ -643,7 +644,7 @@ export default function QuoteRequestForm() {
                     'Get My Quote'
                   )}
                 </button>
-                <p className="text-sm text-gray-500 mt-3">
+                <p className="text-sm text-gray-500 mt-3 ">
                   We'll respond within 24-48 hours
                 </p>
               </div>

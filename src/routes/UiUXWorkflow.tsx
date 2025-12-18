@@ -29,7 +29,7 @@ import uiuxWorkflow07 from "../images/uiux-09.png";
 import uiuxWorkflow08 from "../images/uiux-10.png";
 import uiuxWorkflow09 from "../images/uiux-11.png";
 import project01 from "../images/uiux-project-01.png";
-import project02 from "../images/uiux-project 02.png";
+import project02 from "../images/uiux-project-02.png";
 import project03 from "../images/uiux-project-03.png";
 import project04 from "../images/uiux-project-04.png";
 import { Button } from "@/components/ui/button";
@@ -199,7 +199,7 @@ export default function UXDesignStudio() {
           <div className="max-w-7xl mx-auto">
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm text-gray-500 bg-slate-50 p-4 w-fit rounded-full uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 UI/UX Design Workflow
               </div>
 
@@ -274,7 +274,7 @@ export default function UXDesignStudio() {
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 {/* Left Content */}
                 <div>
-                  <div className="text-sm text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Requirement Gathering
                   </div>
 
@@ -293,8 +293,8 @@ export default function UXDesignStudio() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Conduct stakeholder interviews to identify key
@@ -303,8 +303,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Define user personas and their specific needs
@@ -312,8 +312,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Document functional and non-functional requirements
@@ -321,8 +321,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Establish measurable success criteria and project KPIs
@@ -392,7 +392,7 @@ export default function UXDesignStudio() {
 
                 {/* Right Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Research & Analysis
                   </div>
 
@@ -411,8 +411,8 @@ export default function UXDesignStudio() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Conduct a SWOT analysis of key competitors
@@ -420,8 +420,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Develop detailed user personas based on real data and
@@ -430,8 +430,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Audit and document relevant UI/UX design patterns and
@@ -440,8 +440,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Synthesize findings into actionable insights for the
@@ -462,7 +462,7 @@ export default function UXDesignStudio() {
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 {/* Left Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Information Architecture
                   </div>
 
@@ -481,8 +481,8 @@ export default function UXDesignStudio() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Develop a hierarchical sitemap outlining all pages and
@@ -491,8 +491,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Define primary and secondary global navigation menus
@@ -500,8 +500,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Map user journeys and key task flows for critical user
@@ -510,8 +510,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Establish a clear content strategy and inventory for
@@ -548,9 +548,10 @@ export default function UXDesignStudio() {
                 {/* Left Content - Wireframing */}
                 <div className=" rounded-2xl p-8 relative overflow-hidden">
                   {/* Small label */}
-                  <div className="text-sm text-lime-400 uppercase text-center tracking-wider mb-4 font-medium">
-                    Wireframing
-                  </div>
+                  
+                  <div className="mx-auto w-fit text-xs text-[#D0FF71] rounded-full px-4 py-1 text-center tracking-wider mb-4 font-medium bg-lime-400/20 border border-lime-400/30">
+  Wireframing
+</div>
 
                   {/* Title */}
                   <h3 className="text-5xl font-bold text-white leading-tight mb-4 text-center">
@@ -590,9 +591,10 @@ export default function UXDesignStudio() {
                 {/* Right Content - User Flow Mapping */}
                 <div className="rounded-2xl p-8 container relative overflow-hidden">
                   {/* Small label */}
-                  <div className="text-sm text-lime-400 uppercase text-center tracking-wider mb-4 font-medium">
-                    User Flow Mapping
-                  </div>
+                 <div className="mx-auto w-fit  text-xs text-[#D0FF71] rounded-full px-4 py-1 text-center tracking-wider mb-4 font-medium bg-lime-400/20 border border-lime-400/30">
+  User Flow Mapping
+</div>
+
 
                   {/* Title */}
                   <h3 className="text-5xl font-bold text-white leading-tight mb-4 text-center">
@@ -638,7 +640,7 @@ export default function UXDesignStudio() {
           <div className="max-w-7xl mx-auto">
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 Prototyping
               </div>
 
@@ -707,7 +709,7 @@ export default function UXDesignStudio() {
 
                 {/* Right Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Visual Design
                   </div>
 
@@ -728,8 +730,8 @@ export default function UXDesignStudio() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Brand Identity & Logo Integration.
@@ -737,8 +739,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Color Palette & Accessibility Compliance.
@@ -746,8 +748,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Typography Hierarchy & Web Fonts.
@@ -755,8 +757,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         UI Component & Design System Creation.
@@ -776,7 +778,7 @@ export default function UXDesignStudio() {
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 {/* Left Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Usability Testing
                   </div>
 
@@ -796,8 +798,8 @@ export default function UXDesignStudio() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Recruit target users & develop test scenarios.
@@ -805,8 +807,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Conduct moderated or unmoderated testing sessions.
@@ -814,8 +816,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Analyze user behavior, feedback, and performance
@@ -824,8 +826,8 @@ export default function UXDesignStudio() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Synthesize findings into actionable insights for
@@ -930,7 +932,7 @@ export default function UXDesignStudio() {
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 {/* Left Illustration */}
                 <div className="relative">
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Research & Analysis
                   </div>
                   <div className="relative rounded-3xl overflow-hidden ">
@@ -969,7 +971,7 @@ export default function UXDesignStudio() {
           <div className="max-w-7xl mx-auto">
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 Design Handoff
               </div>
 
@@ -1013,9 +1015,9 @@ export default function UXDesignStudio() {
               <div className="flex gap-4">
                 <button
                   onClick={prevSlide}
-                  className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center hover:bg-gray-800 transition-colors"
+                  className="w-12 h-12 rounded-full bg-black text-lime-400 flex items-center justify-center hover:bg-gray-800 transition-colors"
                 >
-                  <ChevronLeft className="w-6 h-6" />
+                  <ChevronLeft className="w-6 h-6 " />
                 </button>
                 <button
                   onClick={nextSlide}
@@ -1057,9 +1059,15 @@ export default function UXDesignStudio() {
 
                   <div className="mt-4">
                     <div className="flex items-center gap-3 text-sm text-gray-600 mb-2">
-                      <span className="font-medium">{project.year}</span>
-                      <span className="text-lime-400">•</span>
-                      <span className="text-gray-600">{project.author}</span>
+                     <div className='flex flex-row items-center gap-2 '>
+              <p className="text-sm  text-black font-bold  ">
+                {project.year}
+              </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-sm  text-black font-bold ">
+                 {project.author}
+              </p>
+              </div>
                     </div>
 
                     <h3 className="text-lg lg:text-2xl font-bold text-gray-900 leading-tight">

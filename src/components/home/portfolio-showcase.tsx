@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ArrowUpRight } from "@/components/icons"
 import { Button } from '@/components/ui/button';
 import Project01 from '../../images/uiux-project-01.png'
-import Project02 from '../../images/uiux-project 02.png'
+import Project02 from '../../images/uiux-project-02.png'
 import Project03 from '../../images/uiux-project-03.png'
 import Project04 from '../../images/uiux-project-04.png'
 
@@ -20,7 +20,7 @@ export function PortfolioShowcase() {
     },
     {
       image: Project02,
-      title: "Driving Innovative Growth",
+      title: "Furniture designed to the greatest extent",
       year: "2025",
       client: "Gary Neville",
       slug: "driving-innovative-growth"
@@ -34,7 +34,7 @@ export function PortfolioShowcase() {
     },
     {
       image: Project04,
-      title: "Excellence in Digital Marketing Solutions",
+      title: "Redefining a leading global talent group",
       year: "2025",
       client: "Gary Neville",
       slug: "digital-marketing-solutions"
@@ -48,9 +48,7 @@ export function PortfolioShowcase() {
   return (
     <section id="projects" className="py-20 px-4 max-w-7xl mx-auto relative">
       {/* Responsive heading - fixed positioning */}
-      <div className="mb-16 sm:mb-20 lg:mb-24 text-left lg:text-right">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 font-rf-dewi">Take A Look At Our Projects</h2>
-      </div>
+     
 
       {/* Mobile: Single column layout */}
       <div className="block sm:hidden space-y-16">
@@ -68,8 +66,8 @@ export function PortfolioShowcase() {
               />
             </div>
             <div className="mt-6 space-y-2">
-              <p className="text-gray-600 text-sm">
-                {item.year} • {item.client}
+              <p className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
+                {item.year} <span className='text-purple-600'>•</span> {item.client}
               </p>
               <h3 className="text-gray-900 text-2xl font-bold tracking-tight leading-tight line-clamp-2">
                 {item.title}
@@ -106,9 +104,15 @@ export function PortfolioShowcase() {
               />
             </div>
             <div className="mt-8 space-y-3 max-w-2xl">
-              <p className="text-gray-600 text-base">
-                {item.year} • {item.client}
+              <div className='flex flex-row items-center gap-2 '>
+              <p className="text-sm  text-black font-bold  ">
+                {portfolioItems[0].year}
               </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-sm  text-black font-bold ">
+                 {portfolioItems[0].client}
+              </p>
+              </div>
               <h3 className="text-gray-900 text-4xl font-bold tracking-tight line-clamp-2">
                 {item.title}
               </h3>
@@ -144,9 +148,15 @@ export function PortfolioShowcase() {
               />
             </div>
             <div className="mt-6 xl:mt-8 space-y-3">
-              <p className="text-gray-600 text-base">
-                {portfolioItems[0].year} • {portfolioItems[0].client}
+              <div className='flex flex-row items-center gap-2 '>
+              <p className="text-sm  text-black font-bold  ">
+                {portfolioItems[0].year}
               </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-sm  text-black font-bold ">
+                 {portfolioItems[0].client}
+              </p>
+              </div>
               <h3 className="text-gray-900 text-3xl xl:text-4xl font-bold tracking-tight line-clamp-2">
                 {portfolioItems[0].title}
               </h3>
@@ -157,7 +167,11 @@ export function PortfolioShowcase() {
             className="group relative overflow-hidden top-32 xl:top-40 w-1/2 cursor-pointer"
             onClick={() => handleItemClick(portfolioItems[1])}
           >
+            
             <div className="relative h-[400px] xl:h-[500px] w-full perspective-1000 rounded-3xl overflow-hidden">
+               <div className="  mb-16 sm:mb-20 lg:mt-0 text-left lg:text-right">
+        <h2 className="text-3xl sm:text-4xl lg:text-7xl font-bold text-gray-900 font-rf-dewi">Take A Look At Our Projects</h2>
+      </div>
               <img 
                 src={portfolioItems[1].image}
                 alt={portfolioItems[1].title}
@@ -165,9 +179,15 @@ export function PortfolioShowcase() {
               />
             </div>
             <div className="mt-6 xl:mt-8 space-y-3">
-              <p className="text-gray-600 text-base">
-                {portfolioItems[1].year} • {portfolioItems[1].client}
+              <div className='flex flex-row items-center gap-2 '>
+              <p className="text-sm  text-black font-bold  ">
+                {portfolioItems[0].year}
               </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-sm  text-black font-bold ">
+                 {portfolioItems[0].client}
+              </p>
+              </div>
               <h3 className="text-gray-900 text-3xl xl:text-4xl font-bold tracking-tight line-clamp-2">
                 {portfolioItems[1].title}
               </h3>
@@ -189,9 +209,15 @@ export function PortfolioShowcase() {
               />
             </div>
             <div className="mt-6 xl:mt-8 space-y-3">
-              <p className="text-gray-600 text-base">
-                {portfolioItems[2].year} • {portfolioItems[2].client}
+              <div className='flex flex-row items-center gap-2 '>
+              <p className="text-sm  text-black font-bold   ">
+                {portfolioItems[0].year}
               </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-sm  text-black font-bold   ">
+                 {portfolioItems[0].client}
+              </p>
+              </div>
               <h3 className="text-gray-900 text-3xl xl:text-4xl font-bold tracking-tight line-clamp-2">
                 {portfolioItems[2].title}
               </h3>
@@ -210,9 +236,15 @@ export function PortfolioShowcase() {
               />
             </div>
             <div className="mt-6 xl:mt-8 space-y-3">
-              <p className="text-gray-600 text-base">
-                {portfolioItems[3].year} • {portfolioItems[3].client}
+             <div className='flex flex-row items-center gap-2 '>
+              <p className="text-sm  text-black font-bold   ">
+                {portfolioItems[0].year}
               </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full"></span>
+              <p className="text-sm  text-black font-bold  ">
+                 {portfolioItems[0].client}
+              </p>
+              </div>
               <h3 className="text-gray-900 text-3xl xl:text-4xl font-bold tracking-tight line-clamp-2">
                 {portfolioItems[3].title}
               </h3>

@@ -30,7 +30,7 @@ import uiuxWorkflow07 from '../images/uiux-09.png';
 import uiuxWorkflow08 from '../images/uiux-10.png';
 import uiuxWorkflow09 from '../images/uiux-11.png';
 import project01 from '../images/uiux-project-01.png';
-import project02 from '../images/uiux-project 02.png';
+import project02 from '../images/uiux-project-02.png';
 import project03 from '../images/uiux-project-03.png';
 import { Button } from "@/components/ui/button";
 import { useNavigate } from 'react-router-dom';
@@ -203,7 +203,7 @@ export default function MobileAppWorkflow() {
 
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm text-gray-500 bg-slate-50 p-4 w-fit rounded-full uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 Mobile App Development Workflow
               </div>
 
@@ -272,7 +272,7 @@ export default function MobileAppWorkflow() {
 
                 {/* Left Content */}
                 <div>
-                  <div className="text-sm text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     App Concept
                   </div>
 
@@ -286,8 +286,8 @@ export default function MobileAppWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-purple-600 rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Define app purpose, target audience, and key features
@@ -295,8 +295,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Analyze market competition and user research
@@ -304,8 +304,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Determine platform strategy (iOS, Android, or cross-platform)
@@ -313,8 +313,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Create initial wireframes and user flow diagrams
@@ -393,7 +393,7 @@ export default function MobileAppWorkflow() {
 
                 {/* Right Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     UI/UX Design
                   </div>
 
@@ -407,8 +407,8 @@ export default function MobileAppWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Create user personas and journey maps for mobile users
@@ -416,8 +416,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Design mobile-first wireframes and mockups
@@ -425,8 +425,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Follow platform-specific design guidelines (Material Design, Human Interface)
@@ -434,8 +434,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Optimize for touch interactions and gesture-based navigation
@@ -457,7 +457,7 @@ export default function MobileAppWorkflow() {
 
                 {/* Left Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Development
                   </div>
 
@@ -471,8 +471,8 @@ export default function MobileAppWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Set up development environment and CI/CD pipelines
@@ -480,8 +480,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Implement core features with clean, maintainable code
@@ -489,8 +489,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Integrate APIs, databases, and third-party services
@@ -498,8 +498,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Implement push notifications and offline functionality
@@ -540,7 +540,7 @@ export default function MobileAppWorkflow() {
                 {/* Left Content - Wireframing */}
                 <div className=" rounded-2xl p-8 relative overflow-hidden">
                   {/* Small label */}
-                  <div className="text-sm text-lime-400 uppercase text-center tracking-wider mb-4 font-medium">
+                  <div className="mx-auto w-fit text-sm text-[#D0FF71] rounded-full px-4 py-1 text-center tracking-wider mb-4 font-medium bg-lime-400/20 border border-lime-400/30">
                     Testing
                   </div>
 
@@ -601,7 +601,7 @@ export default function MobileAppWorkflow() {
                 {/* Right Content - Deployment & Launch */}
                 <div className="rounded-2xl p-8 container relative overflow-hidden">
                   {/* Small label */}
-                  <div className="text-sm text-lime-400 uppercase text-center tracking-wider mb-4 font-medium">
+                  <div className="mx-auto w-fit text-sm text-[#D0FF71] rounded-full px-4 py-1 text-center tracking-wider mb-4 font-medium bg-lime-400/20 border border-lime-400/30">
                     Deployment
                   </div>
 
@@ -671,7 +671,7 @@ export default function MobileAppWorkflow() {
 
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 Prototyping
               </div>
 
@@ -744,7 +744,7 @@ export default function MobileAppWorkflow() {
 
                 {/* Right Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Visual Design
                   </div>
 
@@ -758,8 +758,8 @@ export default function MobileAppWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Brand Identity & Logo Integration.
@@ -767,8 +767,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Color Palette & Accessibility Compliance.
@@ -776,8 +776,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Typography Hierarchy & Web Fonts.
@@ -785,8 +785,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         UI Component & Design System Creation.
@@ -808,7 +808,7 @@ export default function MobileAppWorkflow() {
 
                 {/* Left Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Usability Testing
                   </div>
 
@@ -822,8 +822,8 @@ export default function MobileAppWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Recruit target users & develop test scenarios.
@@ -831,8 +831,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Conduct moderated or unmoderated testing sessions.
@@ -840,8 +840,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Analyze user behavior, feedback, and performance metrics.
@@ -849,8 +849,8 @@ export default function MobileAppWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Synthesize findings into actionable insights for iteration.
@@ -953,7 +953,7 @@ export default function MobileAppWorkflow() {
 
                 {/* Left Illustration */}
                 <div className="relative">
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Research & Analysis
                   </div>
                   <div className="relative rounded-3xl overflow-hidden ">
@@ -988,7 +988,7 @@ export default function MobileAppWorkflow() {
 
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 Design Handoff
               </div>
 
@@ -1084,9 +1084,15 @@ export default function MobileAppWorkflow() {
 
                   <div className="mt-4">
                     <div className="flex items-center gap-3 text-sm text-gray-600 mb-2">
-                      <span className="font-medium">{project.year}</span>
-                      <span className="text-lime-400">•</span>
-                      <span className="text-gray-600">{project.author}</span>
+                     <div className='flex flex-row items-center gap-2 '>
+              <p className="text-sm  text-black font-bold  ">
+                {project.year}
+              </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-sm  text-black font-bold ">
+                 {project.author}
+              </p>
+              </div>
                     </div>
 
                     <h3 className="text-lg lg:text-2xl font-bold text-gray-900 leading-tight">

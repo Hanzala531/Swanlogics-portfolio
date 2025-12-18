@@ -44,7 +44,7 @@ const FAQAccordionSection = () => {
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="text-sm text-gray-600 mb-4">Frequently Asked Question</p>
+          <p className=" mx-auto text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">Frequently Asked Question</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
             The Answers To Your Questions
           </h2>

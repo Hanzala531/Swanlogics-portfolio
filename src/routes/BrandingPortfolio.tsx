@@ -15,7 +15,7 @@ import Responsiveness01 from '../images/PortfolioImages/page01/portfolio-respons
 import Responsiveness02 from '../images/PortfolioImages/page01/portfolio-responsiveness-02.png';
 import Responsiveness03 from '../images/PortfolioImages/page01/portfolio-responsiveness-03.png';
 import project01 from '../images/uiux-project-01.png';
-import project02 from '../images/uiux-project 02.png';
+import project02 from '../images/uiux-project-02.png';
 import project03 from '../images/uiux-project-03.png';
 import project04 from '../images/uiux-project-04.png';
 
@@ -166,7 +166,7 @@ export default function BrandingPortfolio() {
       <Navbar />
       <main className='py-28'>
         {/* Main hero section */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-start justify-between mb-12">
             {/* Services List */}
             <div className="flex flex-wrap gap-4 lg:gap-6 mb-8 lg:mb-0 w-full">
@@ -187,7 +187,7 @@ export default function BrandingPortfolio() {
             {/* Heading */}
             <div className="flex-shrink-0">
               <h2 className="text-5xl font-bold text-gray-900 leading-tight">
-                A Workplace For Branding Portfolio
+                A Workplace For Branding <br></br> Portfolio
               </h2>
             </div>
           </div>
@@ -500,9 +500,15 @@ export default function BrandingPortfolio() {
                   {/* Project Details */}
                   <div className="space-y-3">
                     <div className="flex items-center gap-3 text-sm text-gray-500">
-                      <span className="font-medium">{project.year}</span>
-                      <span className="w-1 h-1 bg-lime-400 rounded-full"></span>
-                      <span>{project.author}</span>
+                                           <div className='flex flex-row items-center gap-2 '>
+              <p className="text-sm  text-black font-bold  ">
+                {project.year}
+              </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-sm  text-black font-bold ">
+                 {project.author}
+              </p>
+              </div>
                     </div>
 
                     <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 leading-tight transition-colors duration-200">

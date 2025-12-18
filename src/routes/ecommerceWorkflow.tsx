@@ -29,7 +29,7 @@ import uiuxWorkflow07 from '../images/uiux-09.png';
 import uiuxWorkflow08 from '../images/uiux-10.png';
 import uiuxWorkflow09 from '../images/uiux-11.png';
 import project01 from '../images/uiux-project-01.png';
-import project02 from '../images/uiux-project 02.png';
+import project02 from '../images/uiux-project-02.png';
 import project03 from '../images/uiux-project-03.png';
 import { Button } from "@/components/ui/button";
 import { useNavigate } from 'react-router-dom';
@@ -202,7 +202,7 @@ export default function EcommerceWorkflow() {
 
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm text-gray-500 bg-slate-50 p-4 w-fit rounded-full uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 E-commerce Development Workflow
               </div>
 
@@ -271,7 +271,7 @@ export default function EcommerceWorkflow() {
 
                 {/* Left Content */}
                 <div>
-                  <div className="text-sm text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Business Analysis
                   </div>
 
@@ -285,8 +285,8 @@ export default function EcommerceWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Analyze target market and customer demographics
@@ -294,8 +294,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Research competitor e-commerce strategies and pricing
@@ -303,8 +303,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Define product catalog and inventory management needs
@@ -312,8 +312,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Establish revenue goals and conversion targets
@@ -392,7 +392,7 @@ export default function EcommerceWorkflow() {
 
                 {/* Right Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Platform Selection
                   </div>
 
@@ -406,8 +406,8 @@ export default function EcommerceWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Evaluate Shopify, WooCommerce, Magento, and custom platforms
@@ -415,8 +415,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Assess payment gateway and shipping integration options
@@ -424,8 +424,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Plan for scalability, security, and performance requirements
@@ -433,8 +433,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Create technical architecture and integration roadmap
@@ -456,7 +456,7 @@ export default function EcommerceWorkflow() {
 
                 {/* Left Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Store Design
                   </div>
 
@@ -470,8 +470,8 @@ export default function EcommerceWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Design intuitive navigation and category structures
@@ -479,8 +479,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Create conversion-optimized product page layouts
@@ -488,8 +488,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Map customer journey from discovery to purchase
@@ -497,8 +497,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Implement trust signals and social proof elements
@@ -539,7 +539,7 @@ export default function EcommerceWorkflow() {
                 {/* Left Content - Wireframing */}
                 <div className=" rounded-2xl p-8 relative overflow-hidden">
                   {/* Small label */}
-                  <div className="text-sm text-lime-400 uppercase text-center tracking-wider mb-4 font-medium">
+                  <div className="mx-auto w-fit text-sm text-[#D0FF71] rounded-full px-4 py-1 text-center tracking-wider mb-4 font-medium bg-lime-400/20 border border-lime-400/30">
                     Store Development
                   </div>
 
@@ -576,7 +576,7 @@ export default function EcommerceWorkflow() {
                 {/* Right Content - User Flow Mapping */}
                 <div className="rounded-2xl p-8 container relative overflow-hidden">
                   {/* Small label */}
-                  <div className="text-sm text-lime-400 uppercase text-center tracking-wider mb-4 font-medium">
+                  <div className="mx-auto w-fit text-sm text-[#D0FF71] rounded-full px-4 py-1 text-center tracking-wider mb-4 font-medium bg-lime-400/20 border border-lime-400/30">
                     Payment Integration
                   </div>
 
@@ -622,7 +622,7 @@ export default function EcommerceWorkflow() {
 
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 Store Launch
               </div>
 
@@ -696,7 +696,7 @@ export default function EcommerceWorkflow() {
 
                 {/* Right Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Marketing Setup
                   </div>
 
@@ -710,8 +710,8 @@ export default function EcommerceWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Implement on-page SEO and meta tag optimization
@@ -719,8 +719,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Set up Google Analytics and e-commerce tracking
@@ -728,8 +728,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Configure conversion tracking and goal setup
@@ -737,8 +737,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Integrate email marketing and CRM systems
@@ -760,7 +760,7 @@ export default function EcommerceWorkflow() {
 
                 {/* Left Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Performance Optimization
                   </div>
 
@@ -774,8 +774,8 @@ export default function EcommerceWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Optimize page load speeds and Core Web Vitals
@@ -783,8 +783,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Conduct A/B testing on product pages and checkout flow
@@ -792,8 +792,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Analyze user behavior and conversion funnel data
@@ -801,8 +801,8 @@ export default function EcommerceWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Implement data-driven improvements and feature updates
@@ -902,7 +902,7 @@ export default function EcommerceWorkflow() {
 
                 {/* Left Illustration */}
                 <div className="relative">
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Research & Analysis
                   </div>
                   <div className="relative rounded-3xl overflow-hidden ">
@@ -937,7 +937,7 @@ export default function EcommerceWorkflow() {
 
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 Design Handoff
               </div>
 
@@ -1033,9 +1033,15 @@ export default function EcommerceWorkflow() {
 
                   <div className="mt-4">
                     <div className="flex items-center gap-3 text-sm text-gray-600 mb-2">
-                      <span className="font-medium">{project.year}</span>
-                      <span className="text-lime-400">•</span>
-                      <span className="text-gray-600">{project.author}</span>
+                     <div className='flex flex-row items-center gap-2 '>
+              <p className="text-sm  text-black font-bold  ">
+                {project.year}
+              </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-sm  text-black font-bold ">
+                 {project.author}
+              </p>
+              </div>
                     </div>
 
                     <h3 className="text-lg lg:text-2xl font-bold text-gray-900 leading-tight">

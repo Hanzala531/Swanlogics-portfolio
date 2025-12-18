@@ -45,7 +45,7 @@ export default function Services() {
                     <section className="py-14 px-6">
                         <div className="max-w-7xl mx-auto">
                             <div className="mb-16">
-                                <p className="text-sm text-gray-600 mb-4 font-medium">Our Services</p>
+                                <p className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">Our Services</p>
                                 <div className="grid lg:grid-cols-2 gap-8 items-start">
                                     <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
                                         We're A Digital Marketing Agency With Expertise
@@ -68,7 +68,7 @@ export default function Services() {
                                 <div>
                                     {/* Icon */}
                                     <div className="w-16 h-16 bg-lime-400 rounded-xl flex items-center justify-center mb-8 shadow-lg">
-                                        <Palette className="w-8 h-8 text-white" />
+                                        <Palette className="w-8 h-8 text-black" />
                                     </div>
 
                                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
@@ -139,7 +139,7 @@ export default function Services() {
                                 <div>
                                     {/* Icon */}
                                     <div className="w-16 h-16 bg-lime-400 rounded-xl flex items-center justify-center mb-8 shadow-lg">
-                                        <Code2 className="w-8 h-8 text-white" />
+                                        <Code2 className="w-8 h-8 text-black" />
                                     </div>
 
                                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
@@ -173,7 +173,7 @@ export default function Services() {
                                 <div>
                                     {/* Icon */}
                                     <div className="w-16 h-16 bg-lime-400 rounded-xl flex items-center justify-center mb-8 shadow-lg">
-                                        <Terminal className="w-8 h-8 text-white" />
+                                        <Code2 className="w-8 h-8 text-black" />
                                     </div>
 
                                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
@@ -244,7 +244,7 @@ export default function Services() {
                                 <div className="order-1 lg:order-2">
                                     {/* Icon */}
                                     <div className="w-16 h-16 bg-lime-400 rounded-xl flex items-center justify-center mb-8 shadow-lg">
-                                        <Smartphone className="w-8 h-8 text-white" />
+                                        <Smartphone className="w-8 h-8 text-black" />
                                     </div>
 
                                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
@@ -278,7 +278,7 @@ export default function Services() {
                                 <div>
                                     {/* Icon */}
                                     <div className="w-16 h-16 bg-lime-400 rounded-xl flex items-center justify-center mb-8 shadow-lg">
-                                        <ShoppingBag className="w-8 h-8 text-white" />
+                                        <ShoppingBag className="w-8 h-8 text-black" />
                                     </div>
 
                                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
@@ -349,7 +349,7 @@ export default function Services() {
                                 <div className="order-1 lg:order-2">
                                     {/* Icon */}
                                     <div className="w-16 h-16 bg-lime-400 rounded-xl flex items-center justify-center mb-8 shadow-lg">
-                                        <Zap className="w-8 h-8 text-white" />
+                                        <Zap className="w-8 h-8 text-black" />
                                     </div>
 
                                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">

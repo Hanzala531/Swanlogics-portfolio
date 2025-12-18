@@ -29,7 +29,7 @@ import uiuxWorkflow07 from '../images/uiux-09.png';
 import uiuxWorkflow08 from '../images/uiux-10.png';
 import uiuxWorkflow09 from '../images/uiux-11.png';
 import project01 from '../images/uiux-project-01.png';
-import project02 from '../images/uiux-project 02.png';
+import project02 from '../images/uiux-project-02.png';
 import project03 from '../images/uiux-project-03.png';
 import { Button } from "@/components/ui/button";
 import { useNavigate } from 'react-router-dom';
@@ -202,7 +202,7 @@ export default function PythonWorkflow() {
 
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm text-gray-500 bg-slate-50 p-4 w-fit rounded-full uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 Python Development Workflow
               </div>
 
@@ -271,7 +271,7 @@ export default function PythonWorkflow() {
 
                 {/* Left Content */}
                 <div>
-                  <div className="text-sm text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Requirement Analysis
                   </div>
 
@@ -285,8 +285,8 @@ export default function PythonWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Conduct stakeholder interviews to identify key objectives
@@ -294,8 +294,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Define technical specifications and performance requirements
@@ -303,8 +303,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Document functional and non-functional requirements
@@ -312,8 +312,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Establish measurable success criteria and project KPIs
@@ -392,7 +392,7 @@ export default function PythonWorkflow() {
 
                 {/* Right Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Research & Planning
                   </div>
 
@@ -406,8 +406,8 @@ export default function PythonWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Conduct a technology assessment of available Python frameworks
@@ -415,8 +415,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Design scalable architecture and database schemas
@@ -424,8 +424,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Audit and document relevant Python libraries and tools
@@ -433,8 +433,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Synthesize findings into actionable technical specifications
@@ -456,7 +456,7 @@ export default function PythonWorkflow() {
 
                 {/* Left Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Architecture & Design
                   </div>
 
@@ -470,8 +470,8 @@ export default function PythonWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Develop a hierarchical system architecture diagram
@@ -479,8 +479,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Define database schemas and relationships
@@ -488,8 +488,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Map data flows and API endpoints for key functionalities
@@ -497,8 +497,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Establish a clear data strategy and security measures
@@ -539,7 +539,7 @@ export default function PythonWorkflow() {
                 {/* Left Content - Development */}
                 <div className=" rounded-2xl p-8 relative overflow-hidden">
                   {/* Small label */}
-                  <div className="text-sm text-lime-400 uppercase text-center tracking-wider mb-4 font-medium">
+                  <div className="mx-auto w-fit text-xs text-[#D0FF71] rounded-full px-4 py-1 text-center tracking-wider mb-4 font-medium bg-lime-400/20 border border-lime-400/30">
                     Development
                   </div>
 
@@ -576,7 +576,7 @@ export default function PythonWorkflow() {
                 {/* Right Content - Testing */}
                 <div className="rounded-2xl p-8 container relative overflow-hidden">
                   {/* Small label */}
-                  <div className="text-sm text-lime-400 uppercase text-center tracking-wider mb-4 font-medium">
+                  <div className="mx-auto w-fit text-xs text-[#D0FF71] rounded-full px-4 py-1 text-center tracking-wider mb-4 font-medium bg-lime-400/20 border border-lime-400/30">
                     Testing & Quality Assurance
                   </div>
 
@@ -622,7 +622,7 @@ export default function PythonWorkflow() {
 
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 Prototyping & MVP
               </div>
 
@@ -695,7 +695,7 @@ export default function PythonWorkflow() {
 
                 {/* Right Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Deployment & Optimization
                   </div>
 
@@ -709,8 +709,8 @@ export default function PythonWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Containerization with Docker and orchestration
@@ -718,8 +718,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Cloud deployment on AWS, GCP, or Azure
@@ -727,8 +727,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Performance monitoring and optimization
@@ -736,8 +736,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         CI/CD pipeline setup and maintenance
@@ -759,7 +759,7 @@ export default function PythonWorkflow() {
 
                 {/* Left Content */}
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Quality Assurance
                   </div>
 
@@ -773,8 +773,8 @@ export default function PythonWorkflow() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Unit testing, integration testing, and end-to-end validation
@@ -782,8 +782,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Security audits and vulnerability assessments
@@ -791,8 +791,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Load testing and performance benchmarking
@@ -800,8 +800,8 @@ export default function PythonWorkflow() {
                     </div>
 
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Code reviews and quality assurance checks
@@ -901,7 +901,7 @@ export default function PythonWorkflow() {
 
                 {/* Left Illustration */}
                 <div className="relative">
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Iteration & Maintenance
                   </div>
                   <div className="relative rounded-3xl overflow-hidden ">
@@ -936,7 +936,7 @@ export default function PythonWorkflow() {
 
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 Documentation & Handoff
               </div>
 
@@ -1032,9 +1032,15 @@ export default function PythonWorkflow() {
 
                   <div className="mt-4">
                     <div className="flex items-center gap-3 text-sm text-gray-600 mb-2">
-                      <span className="font-medium">{project.year}</span>
-                      <span className="text-lime-400">•</span>
-                      <span className="text-gray-600">{project.author}</span>
+                      <div className='flex flex-row items-center gap-2 '>
+              <p className="text-sm  text-black font-bold  ">
+                {project.year}
+              </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-sm  text-black font-bold ">
+                 {project.author}
+              </p>
+              </div>
                     </div>
 
                     <h3 className="text-lg lg:text-2xl font-bold text-gray-900 leading-tight">

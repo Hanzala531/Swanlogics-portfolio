@@ -192,7 +192,7 @@ const Testimonials = () => {
               disabled={!canScrollLeft}
               className={`w-12 h-12 rounded-full flex items-center justify-center transition-colors ${
                 canScrollLeft
-                  ? "bg-black text-white hover:bg-gray-800"
+                  ? "bg-black text-lime-500 hover:bg-gray-800"
                   : "bg-gray-300 text-gray-500 cursor-not-allowed"
               }`}
             >

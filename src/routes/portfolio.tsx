@@ -23,21 +23,21 @@ export default function PortfolioShowcase() {
     {
       image: image02,
       url : "Furniture Design",
-      title: "Furniture designed to the greatest extent",
+      title: "Furniture Designed To The Greatest Extent",
       year: "2025",
       client: "Gary Neville"
     },
     {
       image: image03,
       url : "Workplace Consultancy",
-      title: "A workplace consultancy creating inspiring environments",
+      title: "A Workplace Consultancy Creating Inspiring Environments",
       year: "2025",
       client: "Gary Neville"
     },
     {
       image: image04,
       url : "Global Talent Group",
-      title: "Redefining a leading global talent group",
+      title: "Redefining A leading Global Talent Group",
       year: "2025",
       client: "Gary Neville"
     },
@@ -51,7 +51,7 @@ export default function PortfolioShowcase() {
     {
       image: image06,
       url : "Furniture Design Case Study",
-      title: "Furniture designed the greatest extent",
+      title: "Furniture Designed The Greatest Extent",
       year: "2025",
       client: "Gary Neville"
     }
@@ -127,9 +127,15 @@ export default function PortfolioShowcase() {
                   />
                 </div>
                 <div className="mt-6 xl:mt-8 space-y-3">
-                  <p className="text-gray-600 text-base">
-                    {portfolioItems[0].year} • {portfolioItems[0].client}
-                  </p>
+                 <div className='flex flex-row items-center gap-2 '>
+              <p className="text-lg  text-black font-bold  ">
+                {portfolioItems[0].year}
+              </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-lg  text-black font-bold ">
+                 {portfolioItems[0].client}
+              </p>
+              </div>
                   <h3 className="text-gray-900 text-3xl xl:text-5xl font-bold tracking-tight">
                     {portfolioItems[0].title}
                   </h3>
@@ -145,9 +151,15 @@ export default function PortfolioShowcase() {
                   />
                 </div>
                 <div className="mt-6 xl:mt-8 space-y-3">
-                  <p className="text-gray-600 text-base">
-                    {portfolioItems[1].year} • {portfolioItems[1].client}
-                  </p>
+                  <div className='flex flex-row items-center gap-2 '>
+              <p className="text-lg  text-black font-bold  ">
+                {portfolioItems[1].year}
+              </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-lg  text-black font-bold ">
+                 {portfolioItems[1].client}
+              </p>
+              </div>
                   <h3 className="text-gray-900 text-3xl xl:text-5xl font-bold tracking-tight">
                     {portfolioItems[1].title}
                   </h3>
@@ -166,9 +178,15 @@ export default function PortfolioShowcase() {
                   />
                 </div>
                 <div className="mt-6 xl:mt-8 space-y-3">
-                  <p className="text-gray-600 text-base">
-                    {portfolioItems[2].year} • {portfolioItems[2].client}
-                  </p>
+                 <div className='flex flex-row items-center gap-2 '>
+              <p className="text-lg  text-black font-bold  ">
+                {portfolioItems[2].year}
+              </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-lg  text-black font-bold ">
+                 {portfolioItems[2].client}
+              </p>
+              </div>
                   <h3 className="text-gray-900 text-3xl xl:text-5xl font-bold tracking-tight">
                     {portfolioItems[2].title}
                   </h3>
@@ -184,9 +202,15 @@ export default function PortfolioShowcase() {
                   />
                 </div>
                 <div className="mt-6 xl:mt-8 space-y-3">
-                  <p className="text-gray-600 text-base">
-                    {portfolioItems[3].year} • {portfolioItems[3].client}
-                  </p>
+                 <div className='flex flex-row items-center gap-2 '>
+              <p className="text-lg  text-black font-bold  ">
+                {portfolioItems[3].year}
+              </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-lg  text-black font-bold ">
+                 {portfolioItems[3].client}
+              </p>
+              </div>
                   <h3 className="text-gray-900 text-3xl xl:text-5xl font-bold tracking-tight">
                     {portfolioItems[3].title}
                   </h3>
@@ -205,9 +229,15 @@ export default function PortfolioShowcase() {
                   />
                 </div>
                 <div className="mt-6 xl:mt-8 space-y-3">
-                  <p className="text-gray-600 text-base">
-                    {portfolioItems[4].year} • {portfolioItems[4].client}
-                  </p>
+                  <div className='flex flex-row items-center gap-2 '>
+              <p className="text-lg  text-black font-bold  ">
+                {portfolioItems[4].year}
+              </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-lg  text-black font-bold ">
+                 {portfolioItems[4].client}
+              </p>
+              </div>
                   <h3 className="text-gray-900 text-3xl xl:text-5xl font-bold tracking-tight">
                     {portfolioItems[4].title}
                   </h3>
@@ -223,9 +253,15 @@ export default function PortfolioShowcase() {
                   />
                 </div>
                 <div className="mt-6 xl:mt-8 space-y-3">
-                  <p className="text-gray-600 text-base">
-                    {portfolioItems[5].year} • {portfolioItems[5].client}
-                  </p>
+                <div className='flex flex-row items-center gap-2 '>
+              <p className="text-lg  text-black font-bold  ">
+                {portfolioItems[5].year}
+              </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-lg  text-black font-bold ">
+                 {portfolioItems[5].client}
+              </p>
+              </div>
                   <h3 className="text-gray-900 text-3xl xl:text-5xl font-bold tracking-tight">
                     {portfolioItems[5].title}
                   </h3>

@@ -25,7 +25,7 @@ export function ServicesSection() {
       label: "JavaScript",
       icon: Code,
       description:
-        "Modern front-end & full-stack JavaScript solutions using React, Next.js and Node — performant, accessible and production-ready.",
+        "JavaScript is a versatile programming language primarily used for web development. It enables interactive features on websites, from dynamic content updates to complex animations. Originally designed for browsers, JavaScript now powers server-side applications through Node.js, making it essential for modern full-stack development.",
       highlights: [
         "React & Next.js",
         "Node.js APIs",
@@ -38,7 +38,7 @@ export function ServicesSection() {
       label: "Python",
       icon: Code,
       description:
-        "Backend systems, APIs and automation built with Python. Clean architecture, tests and deployments that scale.",
+        "Python is a high-level, interpreted programming language celebrated for its clean, readable syntax that emphasizes code clarity. It's incredibly versatile, powering everything from web applications and automation scripts to data science, artificial intelligence, and machine learning projects. Python's extensive standard library and rich ecosystem of third-party packages make development efficient and enjoyable. Its beginner-friendly languge.",
       highlights: [
         "Django/FastAPI",
         "Database Design",
@@ -51,7 +51,7 @@ export function ServicesSection() {
       label: "Mobile App",
       icon: Smartphone,
       description:
-        "Native and cross-platform mobile apps focused on UX, performance and native integrations.",
+        "Mobile app development involves creating software applications for smartphones and tablets. Developers use platforms like iOS (Swift/Objective-C) and Android (Kotlin/Java), or cross-platform frameworks like React Native and Flutter for efficiency. Modern mobile apps leverage device features like cameras, GPS, and sensors while focusing on intuitive user interfaces, performance optimization, and seamless experiences across different screen sizes and operating systems.",
       highlights: [
         "React Native",
         "iOS/Android",
@@ -64,7 +64,7 @@ export function ServicesSection() {
       label: "Ecommerce",
       icon: ShoppingCart,
       description:
-        "E-commerce platforms that convert — from UX to checkout optimization and integrations with payment and inventory systems.",
+        "E-commerce enables businesses to sell products and services online through digital platforms. It encompasses online stores, payment processing, inventory management, and customer relationship tools. Modern e-commerce platforms like Shopify, WooCommerce, and Magento offer seamless shopping experiences with features like secure checkout, personalized recommendations, mobile optimization, and integration with shipping and marketing services for business growth.",
       highlights: [
         "Shopify/WooCommerce",
         "Payment Integration",
@@ -77,7 +77,7 @@ export function ServicesSection() {
       label: "No-Code",
       icon: Zap,
       description:
-        "Rapid prototypes and production apps using no-code/low-code tools to validate ideas fast.",
+        "No-code platforms enable anyone to build applications, websites, and workflows without programming knowledge. Using visual interfaces with drag-and-drop components, users can create functional software solutions quickly. Popular tools like Webflow, Bubble, and Airtable democratize development, empowering entrepreneurs and businesses to launch products faster while reducing costs and technical barriers traditionally associated with software creation",
       highlights: [
         "Webflow",
         "Airtable",

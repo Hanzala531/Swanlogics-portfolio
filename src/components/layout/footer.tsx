@@ -85,7 +85,8 @@ export function Footer() {
 
       {/* CTA Section */}
       <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between gap-6 px-4 sm:px-10 md:px-8 lg:px-10 py-10 md:py-8">
-        <h2 className="text-3xl sm:text-4xl md:text-3xl lg:text-5xl xl:text-6xl font-bold text-center sm:text-left text-white">
+      <h2 className="text-3xl sm:text-4xl md:text-3xl lg:text-5xl xl:text-6xl font-bold text-center sm:text-left text-[#D0FF71] sm:text-white">
+
           Where Quotes Meet Purpose.
         </h2>
         <div className='flex items-center'>
@@ -121,7 +122,7 @@ export function Footer() {
       </div>
       {/* Bottom Bar */}
       <div className="relative z-10 border-t border-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 py-6 md:py-4">
           <div className="flex flex-col md:flex-row items-center md:items-center justify-between gap-6 md:gap-4">
   
   {/* Logo */}
@@ -169,7 +170,7 @@ export function Footer() {
 
       {/* Scroll to Top Button - FIXED POSITION ON CURVED BACKGROUND */}
       <button 
-        className=" absolute right-2 top-0 xl:right-3 lg:right-12 lg:top-1 bg-white text-black px-2 sm:px-3 lg:px-4 py-2 rounded-full hover:bg-gray-400 transition-colors shadow-lg text-[10px] lg:text-sm font-medium flex tracking-tight lg:tracking-widest items-center gap-1 sm:gap-2 z-50"
+        className=" absolute right-2 top-4 xl:right-3 lg:right-12 lg:top-0 md:top-1 bg-white  text-black px-2 sm:px-3 lg:px-4 py-2 rounded-full hover:bg-gray-400 transition-colors shadow-lg text-[10px] lg:text-sm font-bold flex tracking-tight lg:tracking-widest items-center gap-1 sm:gap-2 z-50"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
         <span className="hidden sm:inline">Sh*T I've Gone Too Far, Send Me Back Up</span>

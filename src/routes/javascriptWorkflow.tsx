@@ -29,7 +29,7 @@ import uiuxWorkflow07 from '../images/uiux-09.png';
 import uiuxWorkflow08 from '../images/uiux-10.png';
 import uiuxWorkflow09 from '../images/uiux-11.png';
 import project01 from '../images/uiux-project-01.png';
-import project02 from '../images/uiux-project 02.png';
+import project02 from '../images/uiux-project-02.png';
 import project03 from '../images/uiux-project-03.png';
 import { Button } from "@/components/ui/button";
 import { useNavigate } from 'react-router-dom';
@@ -202,7 +202,7 @@ export default function JavascriptWorkflow() {
 
             {/* 1. Header Section */}
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm text-gray-500 bg-slate-50 p-4 w-fit rounded-full uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 JavaScript Development Workflow
               </div>
 
@@ -256,7 +256,7 @@ export default function JavascriptWorkflow() {
             <div className="px-8">
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div>
-                  <div className="text-sm text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Requirements Analysis
                   </div>
                   <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
@@ -267,32 +267,32 @@ export default function JavascriptWorkflow() {
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Analyze functional requirements and user stories
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Define technical stack and framework selection
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Document API requirements and data flow
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Establish performance benchmarks and testing criteria
@@ -350,7 +350,7 @@ export default function JavascriptWorkflow() {
                   <div className="absolute bottom-0 right-0 h-12 w-24 bg-lime-400 rounded-lg p-4 shadow-lg z-10"></div>
                 </div>
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Technology Stack & Architecture
                   </div>
                   <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
@@ -361,32 +361,32 @@ export default function JavascriptWorkflow() {
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Evaluate and select optimal JavaScript frameworks and libraries
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Design scalable database schemas and data models
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Plan RESTful API endpoints and GraphQL schemas
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Establish development environment and CI/CD pipelines
@@ -405,7 +405,7 @@ export default function JavascriptWorkflow() {
             <div className="px-8">
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Frontend Development
                   </div>
                   <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
@@ -416,32 +416,32 @@ export default function JavascriptWorkflow() {
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Build modular, reusable React/Vue/Angular components
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Implement state management with Redux, Vuex, or Context API
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Integrate APIs and handle asynchronous data operations
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Optimize performance with code splitting and lazy loading
@@ -471,7 +471,7 @@ export default function JavascriptWorkflow() {
             <div className="px-8">
               <div className="grid lg:grid-cols-2 gap-8 items-stretch">
                 <div className="rounded-2xl p-8 relative overflow-hidden">
-                  <div className="text-sm text-lime-400 uppercase text-center tracking-wider mb-4 font-medium">
+                  <div className="mx-auto w-fit text-xs text-[#D0FF71] rounded-full px-4 py-1 text-center tracking-wider mb-4 font-medium bg-lime-400/20 border border-lime-400/30">
                     Backend Development
                   </div>
                   <h3 className="text-5xl font-bold text-white leading-tight mb-4 text-center">
@@ -494,7 +494,7 @@ export default function JavascriptWorkflow() {
                 </div>
 
                 <div className="rounded-2xl p-8 container relative overflow-hidden">
-                  <div className="text-sm text-lime-400 uppercase text-center tracking-wider mb-4 font-medium">
+                  <div className="mx-auto w-fit text-xs text-[#D0FF71] rounded-full px-4 py-1 text-center tracking-wider mb-4 font-medium bg-lime-400/20 border border-lime-400/30">
                     API Design & Integration
                   </div>
                   <h3 className="text-5xl font-bold text-white leading-tight mb-4 text-center">
@@ -524,7 +524,7 @@ export default function JavascriptWorkflow() {
         <div className="py-16 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                 Testing & Quality Assurance
               </div>
               <div className="grid lg:grid-cols-2 gap-12 items-start">
@@ -571,7 +571,7 @@ export default function JavascriptWorkflow() {
                   <div className="absolute bottom-0 right-0 h-12 w-24 bg-lime-400 rounded-lg p-4 shadow-lg z-10"></div>
                 </div>
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Database Integration
                   </div>
                   <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
@@ -582,32 +582,32 @@ export default function JavascriptWorkflow() {
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Design efficient data schemas and relationships
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Implement secure database connections and queries
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Optimize database performance and indexing strategies
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Set up data migration and backup procedures
@@ -626,7 +626,7 @@ export default function JavascriptWorkflow() {
             <div className="px-8">
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div>
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Performance Optimization
                   </div>
                   <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
@@ -637,32 +637,32 @@ export default function JavascriptWorkflow() {
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Implement code splitting and lazy loading strategies
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Optimize bundle sizes and eliminate unused code
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Configure caching strategies and CDN integration
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                        <Check className="w-4 h-4 text-purple-600" />
+                      <div className="flex-shrink-0 w-6 h-6 bg-[#9B82F6] rounded-full flex items-center justify-center mt-1">
+                        <Check className="w-4 h-4 text-white" />
                       </div>
                       <p className="text-gray-700">
                         Monitor performance metrics and user experience
@@ -724,8 +724,8 @@ export default function JavascriptWorkflow() {
               ))}
             </div>
             <div className="text-center mb-16">
-                <div className="hidden items-center gap-3 md:flex relative ">
-          <img src="/Vector.svg" alt="" className="h-5 w-5 opacity-80" />
+                <div className="hidden items-center justify-center gap-3 md:flex relative ">
+          
           <Button 
   onClick={() => navigate("/contact")}
   className="flex !text-brand-ink items-center gap-2 rounded-full bg-lime-300 px-6 py-5 font-bold"
@@ -733,7 +733,7 @@ export default function JavascriptWorkflow() {
   Get In Touch Today
 </Button>
 
-            <img src="/Arrow 1-1.svg" alt="arrow" className="p-4 rounded-full bg-lime-300 text-brand-ink absolute left-40 " />
+            <img src="/Arrow 1-1.svg" alt="arrow" className="p-4 rounded-full bg-lime-300 text-brand-ink relative right-5 " />
         </div>
             </div>
           </div>
@@ -745,7 +745,7 @@ export default function JavascriptWorkflow() {
             <div className="px-8">
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="relative">
-                  <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+                  <div className="ttext-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
                     Code Review & Optimization
                   </div>
                   <div className="relative rounded-3xl overflow-hidden">
@@ -773,7 +773,7 @@ export default function JavascriptWorkflow() {
         <div className="py-16 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="px-8 pt-8 pb-4">
-              <div className="text-sm bg-slate-50 w-fit p-3 rounded-full text-gray-500 uppercase tracking-wider mb-4">
+              <div className="text-sm bg-slate-50 w-fit py-1 px-4 rounded-full text-black font-bold mb-4">
                 Deployment & DevOps
               </div>
               <div className="grid lg:grid-cols-2 gap-12 items-start">
@@ -849,9 +849,15 @@ export default function JavascriptWorkflow() {
                   </div>
                   <div className="mt-4">
                     <div className="flex items-center gap-3 text-sm text-gray-600 mb-2">
-                      <span className="font-medium">{project.year}</span>
-                      <span className="text-lime-400">•</span>
-                      <span className="text-gray-600">{project.author}</span>
+                      <div className='flex flex-row items-center gap-2 '>
+              <p className="text-sm  text-black font-bold  ">
+                {project.year}
+              </p>
+              <span className="w-2 h-2 bg-[#9B82F6] rounded-full "></span>
+              <p className="text-sm  text-black font-bold ">
+                 {project.author}
+              </p>
+              </div>
                     </div>
                     <h3 className="text-lg lg:text-2xl font-bold text-gray-900 leading-tight">
                       {project.title}

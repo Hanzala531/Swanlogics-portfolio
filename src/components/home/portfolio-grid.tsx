@@ -52,7 +52,7 @@ export function PortfolioGrid() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="text-sm text-gray-600">
+            <div className="text-sm  w-fit py-1 px-4 rounded-full text-black font-bold   mb-4">
               <p>2025 • Gary Neville</p>
             </div>
           </div>
