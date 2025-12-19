@@ -156,7 +156,11 @@ export function Footer() {
       </div>
 
       {/* Social Media Sidebar - Desktop only - FIXED POSITION ON CURVED BACKGROUND */}
-    <div className="absolute lg:left-8 md:left-2 top-2 md:top-2  z-50 hidden md:flex flex-col gap-1.5 md:gap-2 lg:gap-2   justify-center items-center">
+    <div className="absolute lg:left-8 md:left-2 top-2 md:top-2  z-50 hidden md:flex flex-col gap-1.5 md:gap-2 lg:gap-2   justify-center items-center
+    [@media(min-width:1024px)_and_(max-width:1189px)]:left-2
+     [@media(min-width:880px)_and_(max-width:1021px)]:top-[0]
+    
+    ">
         {socials.map((item, index) => (
           <a
             key={index}
@@ -170,11 +174,15 @@ export function Footer() {
 
       {/* Scroll to Top Button - FIXED POSITION ON CURVED BACKGROUND */}
       <button 
-        className=" absolute right-2 top-4 xl:right-3 lg:right-12 lg:top-0 md:top-1 bg-white  text-black px-2 sm:px-3 lg:px-4 py-2 rounded-full hover:bg-gray-400 transition-colors shadow-lg text-[10px] lg:text-sm font-bold flex tracking-tight lg:tracking-widest items-center gap-1 sm:gap-2 z-50"
+        className=" absolute right-2 top-4 xl:right-3 lg:right-12 lg:top-0 md:top-1   text-black px-2 sm:px-3 lg:px-4 py-2  hover:bg-gray-100 transition-colors hover:rounded-full text-[10px] lg:text-sm font-bold flex tracking-tight lg:tracking-widest items-center gap-1 sm:gap-2 z-50
+        [@media(min-width:1023px)_and_(max-width:1269px)]:-right-2
+        [@media(min-width:1023px)_and_(max-width:1269px)]:tracking-tight
+        
+        "
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
         <span className="hidden sm:inline">Sh*T I've Gone Too Far, Send Me Back Up</span>
-        <span className="sm:hidden">Back Up</span>
+        <span className="sm:hidden text-white">Back Up</span>
         <img 
           src={HandTap}
           className='h-4 w-4 sm:h-5 sm:w-5'
