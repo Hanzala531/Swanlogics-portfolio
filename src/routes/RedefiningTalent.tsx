@@ -34,12 +34,12 @@ export default function RedefneGlobalTalent() {
     {
       id: 1,
       title: "Your Child's Safety Comes First",
-      image: slider02
+      image: slider01
     },
     {
       id: 2,
       title: "Creative Design Solutions",
-      image: slider01
+      image: slider02
     },
     {
       id: 3,

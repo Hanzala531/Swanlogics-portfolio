@@ -9,13 +9,14 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
+import FigmaIcon from "@/assets/Figma.png";
 
 export function ServicesSection() {
   const services = [
     {
       id: "uiux",
       label: "UI/UX",
-      icon: Palette,
+      icon: FigmaIcon,
       description:
         "We craft intuitive and engaging user experiences through meticulous research, wireframing, and prototyping. Our process is designed to understand user behavior deeply, ensuring the final product is not only visually appealing but also easy to navigate and highly effective at achieving your business objectives, leading to increased user satisfaction and conversion.",
       highlights: [],
@@ -172,7 +173,11 @@ export function ServicesSection() {
           <div className="lg:col-span-5 order-1 lg:order-2 bg-black border border-lime-400/50 rounded-2xl p-4 sm:p-6 lg:p-8 w-full lg:w-[85%] lg:relative lg:right-[6vw] lg:h-[80%] mx-auto">
             <div className="flex items-center gap-3 mb-4">
               <div className="bg-lime-400 p-2 rounded-full flex-shrink-0">
-                <active.icon className="w-4 h-4 sm:w-5 sm:h-5 text-black" />
+                {typeof active.icon === 'string' ? (
+                  <img src={active.icon} alt={active.label} className="w-4 h-4 sm:w-5 sm:h-5" />
+                ) : (
+                  <active.icon className="w-4 h-4 sm:w-5 sm:h-5 text-black" />
+                )}
               </div>
               <h3 className="text-xl sm:text-2xl lg:text-3xl text-white font-bold">
                 {active.label}

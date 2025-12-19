@@ -3,7 +3,7 @@ import { Navbar } from '../components/layout/Navbar';
 import { Footer as FooterSimple } from '../components/layout/footer';
 import Testimonials from '../components/common/testimonalsSection'
 import { Globe, Search, Megaphone, PenTool, ChevronLeft, ChevronRight } from 'lucide-react';
-import BannerImage from '../images/PortfolioImages/page04/branding-portfolio-banner.png';
+import BannerImage from '../images/PortfolioImages/page05/branding-portfolio-banner.png';
 import Member01 from '../images/PortfolioImages/page05/teamIMage1.svg';
 import Member02 from '../images/PortfolioImages/page05/teamIMage2.svg';
 import Member03 from '../images/PortfolioImages/page05/teamIMage3.svg';

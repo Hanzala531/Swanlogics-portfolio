@@ -20,21 +20,21 @@ export function PortfolioShowcase() {
     },
     {
       image: Project02,
-      title: "Furniture designed to the greatest extent",
+      title: "Furniture Designed To The Greatest Extent",
       year: "2025",
       client: "Gary Neville",
       slug: "driving-innovative-growth"
     },
     {
       image: Project03,
-      title: "A workplace consultancy creating inspiring environments",
+      title: "A Workplace Consultancy Creating Inspiring Environments",
       year: "2025",
       client: "Gary Neville",
       slug: "workplace-consultancy"
     },
     {
       image: Project04,
-      title: "Redefining a leading global talent group",
+      title: "Redefining A Leading Global Talent Group",
       year: "2025",
       client: "Gary Neville",
       slug: "digital-marketing-solutions"

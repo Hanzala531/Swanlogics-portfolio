@@ -629,7 +629,7 @@ export default function QuoteRequestForm() {
                   disabled={!isFormValid() || isSubmitting}
                   className={`relative left-20 px-12 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform flex items-center justify-center ${isFormValid() && !isSubmitting
                       ? 'bg-[#D0FF71] hover:bg-lime-600 text-black hover:scale-105 shadow-lg hover:shadow-xl hover:text-white'
-                      : 'bg-lime-300 text-gray-500 cursor-not-allowed'
+                      : 'bg-lime-300 text-black cursor-not-allowed'
                     }`}
                 >
                   {isSubmitting ? (

@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { Navbar } from '../components/layout/Navbar';
 import { Footer as FooterSimple } from '../components/layout/footer';
 import {
-    Palette,
     Code2,
     Terminal,
     Smartphone,
@@ -21,6 +20,9 @@ import pythonWorkflowImg from '../images/python-workflow.png';
 import mobileAppWorkflowImg from '../images/mobile-app-workflow.png';
 import ecommerceWorkflowImg from '../images/ecomerce-workflow.png';
 import noCodeWorkflowImg from '../images/node-code-workflow.png';
+import UXIcon from '@/assets/figma-icon-services.png';
+import CrossCodeIcon from '@/assets/cross-code.png';
+import AxLogoIcon from '@/assets/ax-logo.png'
 
 
 /**
@@ -68,7 +70,7 @@ export default function Services() {
                                 <div>
                                     {/* Icon */}
                                     <div className="w-16 h-16 bg-lime-400 rounded-xl flex items-center justify-center mb-8 shadow-lg">
-                                        <Palette className="w-8 h-8 text-black" />
+                                        <img src={UXIcon} alt="UI/UX" className="w-8 h-8" />
                                     </div>
 
                                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
@@ -139,7 +141,7 @@ export default function Services() {
                                 <div>
                                     {/* Icon */}
                                     <div className="w-16 h-16 bg-lime-400 rounded-xl flex items-center justify-center mb-8 shadow-lg">
-                                        <Code2 className="w-8 h-8 text-black" />
+                                        <img src={CrossCodeIcon} alt="JavaScript" className="w-8 h-8" />
                                     </div>
 
                                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
@@ -244,7 +246,7 @@ export default function Services() {
                                 <div className="order-1 lg:order-2">
                                     {/* Icon */}
                                     <div className="w-16 h-16 bg-lime-400 rounded-xl flex items-center justify-center mb-8 shadow-lg">
-                                        <Smartphone className="w-8 h-8 text-black" />
+                                        <img src={AxLogoIcon} alt="Mobile App" className="w-8 h-8" />
                                     </div>
 
                                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
@@ -278,7 +280,7 @@ export default function Services() {
                                 <div>
                                     {/* Icon */}
                                     <div className="w-16 h-16 bg-lime-400 rounded-xl flex items-center justify-center mb-8 shadow-lg">
-                                        <ShoppingBag className="w-8 h-8 text-black" />
+                                        <img src={AxLogoIcon} alt="Ecommerce" className="w-8 h-8" />
                                     </div>
 
                                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
@@ -349,7 +351,7 @@ export default function Services() {
                                 <div className="order-1 lg:order-2">
                                     {/* Icon */}
                                     <div className="w-16 h-16 bg-lime-400 rounded-xl flex items-center justify-center mb-8 shadow-lg">
-                                        <Zap className="w-8 h-8 text-black" />
+                                        <img src={UXIcon} alt="UI/UX" className="w-8 h-8" />
                                     </div>
 
                                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">

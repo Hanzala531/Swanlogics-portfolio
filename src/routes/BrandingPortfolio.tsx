@@ -175,10 +175,10 @@ export default function BrandingPortfolio() {
                 return (
                   <div
                     key={index}
-                    className="flex items-center gap-2 bg-slate-100 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm hover:shadow-md transition-shadow duration-300"
+                    className="flex items-center gap-2 bg-purple-100 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm hover:shadow-md transition-shadow duration-300"
                   >
-                    <IconComponent className="w-4 h-4 text-slate-400" />
-                    <span className="text-sm font-medium text-gray-700">{service.name}</span>
+                    <IconComponent className="w-4 h-4 text-black" />
+                    <span className="text-sm font-medium text-black">{service.name}</span>
                   </div>
                 );
               })}
