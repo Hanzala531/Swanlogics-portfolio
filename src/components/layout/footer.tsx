@@ -26,6 +26,109 @@ export function Footer() {
     { href: "#", icon: <img src={Linkedin} className='h-6 w-5 sm:h-4 sm:w-4 md:h-4 md:w-4' alt="LinkedIn" /> },
   ];
   return (
+<div>
+  
+
+    {/* ==========================================
+      MOBILE VERSION (Interactive & Modern)
+      ========================================== */}
+
+ <div className="md:hidden relative z-10 bg-black border-t rounded-[10vw]">
+    <div className="px-6 pt-10 pb-8">
+      {/* Attractive Mobile Heading */}
+      <h2 className="text-4xl font-extrabold text-white leading-tight mb-10">
+        Where Quotes <br/> Meet Purpose.
+      </h2>
+
+      {/* Glassmorphism Info Card */}
+      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[2rem] p-6 mb-8">
+        <div className="grid grid-cols-2 gap-6 mb-8">
+          <div>
+            <h3 className="text-white font-bold text-lg mb-3">Explore</h3>
+            <ul className="space-y-2 text-xs text-gray-400">
+                <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">Home</a></li>
+                  <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">About Us</a></li>
+                    <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">Our Services </a></li>
+                      <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">Our Team</a></li>
+                        <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">Portfolio</a></li>
+             
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-white font-bold text-lg mb-3">Links</h3>
+            <ul className="space-y-2 text-sm ">
+              <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">Privacy Policy </a></li>
+                <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">Terms & Conditions</a></li>
+              <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">FAQ’s</a></li>
+            <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="pt-6 border-t border-white/10">
+          <h3 className="text-white font-bold text-lg mb-4">Get In Touch</h3>
+          <div className="space-y-4">
+            <div className="flex items-center gap-3 text-sm text-gray-300">
+              <img src={Iphone} className='w-3' alt="P" /> 012 1234567 890
+            </div>
+            <div className="flex items-center gap-3 text-sm text-gray-300">
+              <img src={Share} className='w-3' alt="E" /> hello@example.com
+            </div>
+             <div className="flex items-center gap-3 text-sm text-gray-300">
+              <img src={Location} className='w-3 mb-4' alt="E" /> 1 Gibfield Park Avenue Atherton Manchester M46 0SU
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Glassmorphic Social & Quote Bar */}
+      <div className="flex justify-between items-center bg-white/10 backdrop-blur-2xl border border-white/20 p-2 rounded-full mb-12">
+        <div className="flex gap-2 ml-1">
+          {socials.map((item, index) => (
+            <a key={index} href={item.href} className="bg-[#9B82F6] p-2 rounded-full text-white">
+              {item.icon}
+            </a>
+          ))}
+        </div>
+        <button className="flex flex-row gap-3 items-center  bg-[#D0FF71] text-black font-bold px-4 py-2.5 rounded-full text-xs tracking-tighter">
+           QUOTE
+          <img 
+              src={ArrowUp} 
+              className='h-2 w-2 object-contain'
+              alt="Arrow"
+            />
+        </button>
+      </div>
+
+      {/* Mobile-Specific Backup Button */}
+      <button 
+        className="w-full flex flex-row items-center text-center justify-center gap-2 p-2  text-[9px] font-extrabold uppercase tracking-[0.2em] text-black  bg-white rounded-full "
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      >
+        
+           Sh*T I've Gone Too Far, Send Me Back Up
+        <img src={HandTap} className='w-5 h-5 opacity-40 animate-pulse' alt="" />
+      </button>
+    </div>
+
+    {/* Mobile-Only Bottom Bar */}
+    <div className="border-t border-white/10 py-6 ">
+       <img src={SwanlogicsLogo} alt="Logo" className="h-7 mx-auto mb-3" />
+       <div className="flex flex-row gap-1 px-2  py-3 items-center justify-center">
+       <div className="text-[9px] px-2 text-white border-r border-[#D0FF71]">© SWANLOGICS LTD 2025</div>
+      
+        <div className="text-[9px] text-white px-2 border-r border-[#D0FF71]"> Web Design Manchester</div>
+        
+         <div className="text-[9px] text-white px-2">All Rights Reserved</div>
+         </div>
+    </div>
+  </div>
+
+ {/* ==========================================
+      DESKTOP & TABLET (Untouched Original Code)
+      ========================================== */}
+
+
      <footer className="relative text-white overflow-hidden m-2">
       {/* Curved Background Shape - VISIBLE ON ALL SCREENS */}
       <div className="absolute inset-0 overflow-hidden">
@@ -35,8 +138,14 @@ export function Footer() {
           alt="Background"
         />
       </div>
+     
+
+ 
+
 
       {/* Main Footer Content */}
+
+      <div className="hidden md:block relative z-10">
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 lg:pt-14 ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 lg:gap-12">
           {/* Explore Section */}
@@ -122,11 +231,11 @@ export function Footer() {
       </div>
       {/* Bottom Bar */}
       <div className="relative z-10 border-t border-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 py-6 md:py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 xl:px-4 py-6 md:py-4">
           <div className="flex flex-col md:flex-row items-center md:items-center justify-between gap-6 md:gap-4">
   
   {/* Logo */}
-  <div className="flex justify-center md:justify-start w-full md:w-auto">
+  <div className="flex justify-center md:justify-start w-full md:w-auto  ">
     <img
       src={SwanlogicsLogo}
       alt="Swan Logo"
@@ -189,7 +298,21 @@ export function Footer() {
           alt="Hand"
         />
       </button>
+
+      </div>
     </footer>
+
+
+
+
+</div>
+
+
+
+
+
+
+
 
 
 
