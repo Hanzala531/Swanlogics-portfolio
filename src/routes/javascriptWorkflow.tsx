@@ -728,12 +728,28 @@ export default function JavascriptWorkflow() {
           
           <Button 
   onClick={() => navigate("/contact")}
-  className="flex !text-brand-ink items-center gap-2 rounded-full bg-lime-300 px-6 py-5 font-bold"
+  className="
+  !bg-[#D0FF71]
+    !text-black
+    !font-bold
+
+    !px-6
+    !py-4
+    !rounded-full
+
+    hover:!bg-lime-300
+    hover:!-translate-x-7
+    hover:!pl-6 hover:!pr-4
+
+    !transition-all !duration-1000 !ease-out
+    flex items-center gap-2 whitespace-nowrap
+    text-base"
+  
 >
   Get In Touch Today
 </Button>
 
-            <img src="/Arrow 1-1.svg" alt="arrow" className="p-4 rounded-full bg-lime-300 text-brand-ink relative right-5 " />
+            <img src="/Arrow 1-1.svg" alt="arrow" className="p-4 rounded-full bg-lime-300 text-brand-ink relative right-8 " />
         </div>
             </div>
           </div>

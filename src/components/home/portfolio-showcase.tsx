@@ -256,7 +256,24 @@ export function PortfolioShowcase() {
                 <div className="hidden md:flex items-center gap-3 absolute left-10 bottom-10 transform -translate-y-1/2">
                   <Button 
                     onClick={() => navigate("/portfolio")}
-                    className="flex !text-brand-ink text-lg items-center gap-2 rounded-full bg-lime-300 px-12 py-4 font-bold"
+                     variant="ghost"
+  size={undefined}
+  className="
+    !bg-[#D0FF71]
+    !text-black
+    !font-bold
+
+    !px-4
+    !py-4
+    !rounded-full
+
+    hover:!bg-lime-300
+    hover:!-translate-x-7
+    hover:!pl-6 hover:!pr-4
+
+    !transition-all !duration-1000 !ease-out
+    flex items-center gap-2 whitespace-nowrap
+    text-base"
                   >
                     View All Projects
                   </Button>

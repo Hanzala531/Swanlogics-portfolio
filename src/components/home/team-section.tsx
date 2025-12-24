@@ -47,7 +47,7 @@ export function TeamSection() {
             >
               {/* Team member card */}
               <div
-                className={`relative overflow-hidden rounded-2xl h-[55vw] sm:h-[25vw] w-full transition-all duration-500 ease-in-out group-hover:shadow-xl ${index === 1 ? "sm:w-[15vw] sm:group-hover:w-[18vw]" : "sm:w-[15vw] sm:group-hover:w-[18vw]"}`}
+                className={`relative overflow-hidden rounded-2xl h-[55vw] sm:h-[25vw] w-full transition-all duration-500 ease-in-out group-hover:shadow-xl ${index === 1 ? "sm:w-[15vw] sm:group-hover:w-[24vw]" : "sm:w-[15vw] sm:group-hover:w-[24vw]"}`}
               >
                 {/* Image container */}
                 <div className="aspect-square overflow-hidden h-full w-full transition-all duration-500 ease-in-out">
@@ -59,7 +59,7 @@ export function TeamSection() {
                 </div>
 
                 {/* Quote card - only visible on hover */}
-                <div className="absolute inset-x-3 -bottom-2 transform translate-y-full opacity-0 transition-all duration-300 ease-out group-hover:translate-y-0 group-hover:opacity-100">
+                <div className="absolute inset-x-3 bottom-3 transform translate-y-full opacity-0 transition-all duration-300 ease-out group-hover:translate-y-0 group-hover:opacity-100">
                   <div className="rounded-xl bg-white p-4 shadow-lg border border-gray-100">
                     {/* Purple icon circle */}
                     <div className="absolute 2xl:top-[-19vw] right-4 w-16 h-16  bg-brand-purple rounded-full flex items-center justify-center sm:-top-10 sm:w-10 sm:h-10 xl:top-[-10rem] ">
@@ -83,7 +83,24 @@ export function TeamSection() {
           <div className="hidden lg:flex items-center gap-3 relative">
             <Button
               // onClick={() => navigate("/services")}
-              className="flex !text-brand-ink items-center gap-2 rounded-full bg-lime-300 px-6 py-5 font-bold"
+             variant="ghost"
+  size={undefined}
+  className="
+    !bg-[#D0FF71]
+    !text-black
+    !font-bold
+
+    !px-6
+    !py-4
+    !rounded-full
+
+    hover:!bg-lime-300
+    hover:!-translate-x-5
+    hover:!pl-6 hover:!pr-4
+
+    !transition-all !duration-1000 !ease-out
+    flex items-center gap-2 whitespace-nowrap
+    text-base"
             >
               View All Services
             </Button>

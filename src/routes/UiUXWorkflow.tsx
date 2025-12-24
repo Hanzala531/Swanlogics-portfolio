@@ -251,7 +251,8 @@ export default function UXDesignStudio() {
                 {/* Button placed on top of the image (Adjusted positioning) */}
                 <button className="inline-flex items-center gap-2 bg-lime-300 hover:bg-lime-400 transition-colors px-6 py-3 rounded-full font-medium text-gray-900 group absolute top-0  z-10">
                   Tell Me More
-                  <ArrowUpRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  
+                  <ArrowUpRight className="w-4 h-4 bg-lime-300 " />
                 </button>
 
                 {/* Image */}
@@ -910,7 +911,23 @@ export default function UXDesignStudio() {
               <div className="hidden items-center gap-3 md:flex relative ">
                 <Button
                   onClick={() => navigate("/contact")}
-                  className="flex !text-brand-ink items-center gap-2 rounded-full bg-lime-300 px-6 py-5 font-bold"
+                  className="
+                  !bg-[#D0FF71]
+    !text-black
+    !font-bold
+
+    !px-8
+    !py-4
+    !rounded-full
+
+    hover:!bg-lime-300
+    hover:!-translate-x-7
+    hover:!pl-6 hover:!pr-8
+
+    !transition-all !duration-1000 !ease-out
+    flex items-center gap-2 whitespace-nowrap
+    text-base"
+                  
                 >
                   Get In Touch Today
                 </Button>

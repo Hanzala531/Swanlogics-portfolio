@@ -33,7 +33,7 @@ export function Footer() {
       MOBILE VERSION (Interactive & Modern)
       ========================================== */}
 
- <div className="md:hidden relative z-10 bg-black border-t rounded-[10vw]">
+ <div className="md:hidden relative z-10 bg-black  rounded-t-[10vw]">
     <div className="px-6 pt-10 pb-8">
       {/* Attractive Mobile Heading */}
       <h2 className="text-4xl font-extrabold text-white leading-tight mb-10">
@@ -41,10 +41,10 @@ export function Footer() {
       </h2>
 
       {/* Glassmorphism Info Card */}
-      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[2rem] p-6 mb-8">
+      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-tl-[2rem] rounded-br-[2rem] p-6 mb-8">
         <div className="grid grid-cols-2 gap-6 mb-8">
           <div>
-            <h3 className="text-white font-bold text-lg mb-3">Explore</h3>
+            <h3 className="text-white font-bold text-lg mb-3 border-l-2 border-[#D0FF71] px-2">Explore</h3>
             <ul className="space-y-2 text-xs text-gray-400">
                 <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">Home</a></li>
                   <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">About Us</a></li>
@@ -55,7 +55,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-white font-bold text-lg mb-3">Links</h3>
+            <h3 className="text-white font-bold text-lg mb-3 border-l-2 border-[#D0FF71] px-2">Links</h3>
             <ul className="space-y-2 text-sm ">
               <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">Privacy Policy </a></li>
                 <li><a href="#" className="text-[#696969] hover:text-[#D0FF71] transition-colors">Terms & Conditions</a></li>
@@ -66,7 +66,7 @@ export function Footer() {
         </div>
 
         <div className="pt-6 border-t border-white/10">
-          <h3 className="text-white font-bold text-lg mb-4">Get In Touch</h3>
+          <h3 className="text-white font-bold text-lg mb-4 border-l-2  border-[#D0FF71] px-2">Get In Touch</h3>
           <div className="space-y-4">
             <div className="flex items-center gap-3 text-sm text-gray-300">
               <img src={Iphone} className='w-3' alt="P" /> 012 1234567 890
@@ -82,7 +82,7 @@ export function Footer() {
       </div>
 
       {/* Mobile Glassmorphic Social & Quote Bar */}
-      <div className="flex justify-between items-center bg-white/10 backdrop-blur-2xl border border-white/20 p-2 rounded-full mb-12">
+      <div className="flex justify-between items-center bg-white/10 backdrop-blur-3xl border border-white/20 p-2 rounded-full mb-12">
         <div className="flex gap-2 ml-1">
           {socials.map((item, index) => (
             <a key={index} href={item.href} className="bg-[#9B82F6] p-2 rounded-full text-white">

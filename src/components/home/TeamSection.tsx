@@ -2,7 +2,7 @@ import React from 'react';
 const teamMembers = [1, 2, 3, 4];
 export default function TeamSection() {
   return (
-    <section className="container-px mx-auto max-w-[1400px] py-24">
+    <section id='random' className="container-px mx-auto max-w-[1400px] py-24">
       <h2 className="text-center text-4xl leading-tight sm:text-5xl">
         Teamwork makes the dream work
       </h2>

@@ -107,7 +107,24 @@ export function Navbar() {
           {/* <img src="/Vector.svg" alt="" className="h-5 w-5 opacity-80" /> */}
           <Button
             onClick={() => navigate("/quote")}
-            className="flex !text-brand-ink items-center gap-2 rounded-full bg-lime-300 px-9 py-4 font-bold"
+             variant="ghost"
+  size={undefined}
+  className="
+    !bg-[#D0FF71]
+    !text-black
+    !font-bold
+
+    !px-10
+    !py-4
+    !rounded-full
+
+    hover:!bg-lime-300
+    hover:!-translate-x-4
+    hover:!pl-6 hover:!pr-10 
+
+    !transition-all !duration-1000 !ease-out
+    flex items-center gap-2 whitespace-nowrap
+    text-base"
           >
             Start A Project
           </Button>
