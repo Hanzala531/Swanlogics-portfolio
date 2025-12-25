@@ -15,7 +15,7 @@ const stats: Stat[] = [
 
 export default function StatsSection() {
   return (
-    <section className="container-px mx-auto max-w-[1400px] py-10">
+    <section className="container-px mx-auto max-w-[1400px] pb-4">
       <div className="grid gap-10 border-brand-purple/40 pt-10 text-brand-ink md:grid-cols-4 ml-6 sm:ml-0">
         {stats.map((stat) => (
           <div key={stat.label} className="space-y-4">

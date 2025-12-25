@@ -199,14 +199,16 @@ export function Footer() {
           Where Quotes Meet Purpose.
         </h2>
         <div className='flex items-center'>
-          <button className="bg-[#D0FF71] text-black font-bold px-8 md:px-10 lg:px-12 py-3 md:py-3.5 lg:py-4 rounded-full 
-            hover:bg-lime-300 hover:-translate-x-5 hover:pl-6 hover:pr-12 transition-all duration-1000 ease-out flex items-center gap-2 whitespace-nowrap text-sm md:text-base">
+          <button 
+           onClick={() => navigate("/quote")}
+          className="bg-[#D0FF71] text-black  font-bold px-8 md:px-10 lg:px-8 py-3 md:py-3.5 lg:py-3 rounded-full 
+            hover:bg-lime-300 hover:-translate-x-5 hover:pl-6 hover:pr-8 transition-all duration-1000 ease-out flex items-center gap-2 whitespace-nowrap text-sm md:text-base">
             Get A Quote
           </button>
-          <div className="bg-[#D0FF71] p-3 md:p-3.5 lg:p-4 rounded-full">
+          <div className="bg-[#D0FF71] relative right-4 p-3 md:p-3.5 lg:p-4 rounded-full">
             <img 
               src={ArrowUp} 
-              className='h-4 w-3 object-center'
+              className='h-3 w-3 object-center'
               alt="Arrow"
             />
           </div>

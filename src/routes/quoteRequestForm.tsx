@@ -324,10 +324,10 @@ export default function QuoteRequestForm() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div  className="min-h-screen ">
       <Navbar />
       <main>
-        <div className="max-w-4xl mx-auto py-16 px-4">
+        <div className=" mx-auto   py-16 px-10">
           {/* Header */}
           <header className=" mb-2">
             <h1 className="text-4xl font-bold text-gray-900 s">
@@ -337,14 +337,14 @@ export default function QuoteRequestForm() {
           </header>
 
           <form onSubmit={handleSubmit}>
-            <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8">
+            {/* <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8"> */}
               
               {/* Two Column Layout - Project Details Left, User Info Right */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 my-8  ">
                 
                 {/* Left Column - Project/Service Details */}
-                <div className='bg-gray-50 p-6 rounded-2xl border border-gray-200'>
-                  <h2 className="text-lg font-semibold text-gray-900 mb-6">Project / Service Details</h2>
+                <div className='bg-gray-50 p-6 rounded-2xl border shadow-xl border-gray-200'>
+                  <h2 className="text-2xl font-extrabold text-gray-900 mb-6">Project / Service Details</h2>
 
                   <div className="space-y-6">
                     {/* Service Selection with Settings Icon */}
@@ -356,7 +356,11 @@ export default function QuoteRequestForm() {
                         name="serviceType"
                         value={formData.serviceType}
                         onChange={handleInputChange}
-                        className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-gray-500 bg-white appearance-none cursor-pointer"
+                        className="w-full pl-10 pr-4 py-3 rounded-xl 
+             bg-white text-gray-500 appearance-none cursor-pointer
+             outline-none
+             focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+             transition-all duration-200"
                         required
                       >
                         <option value="">Select Service</option>
@@ -381,7 +385,11 @@ export default function QuoteRequestForm() {
                         name="projectTitle"
                         value={formData.projectTitle}
                         onChange={handleInputChange}
-                        className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-gray-500 placeholder-gray-500"
+                        className="w-full pl-10 pr-4 py-3 rounded-xl 
+             bg-white text-gray-500 appearance-none cursor-pointer
+             outline-none
+             focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+             transition-all duration-200"
                         placeholder="Project Title"
                       />
                     </div>
@@ -442,7 +450,7 @@ export default function QuoteRequestForm() {
                         value={formData.description}
                         onChange={handleInputChange}
                         rows={4}
-                        className="w-full h-12 px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-gray-500 placeholder-gray-500 resize-none overflow-hidden"
+                        className="w-full h-12 px-4 py-3 outline-none rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-gray-500 placeholder-gray-500 resize-none overflow-hidden"
                         placeholder="Project Description"
                         required
                       />
@@ -451,8 +459,8 @@ export default function QuoteRequestForm() {
                 </div>
 
                 {/* Right Column - User Information */}
-                <div className='bg-gray-50 p-6 rounded-2xl border border-gray-200'>
-                  <h2 className="text-lg font-semibold text-gray-900 mb-6">User Information</h2>
+                <div className='bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-xl'>
+                  <h2 className="text-2xl font-extrabold text-gray-900 mb-6">User Information</h2>
 
                   <div className="space-y-6">
                     {/* Name with User Icon */}
@@ -465,7 +473,11 @@ export default function QuoteRequestForm() {
                         name="name"
                         value={formData.name}
                         onChange={handleInputChange}
-                        className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-gray-500 placeholder-gray-500"
+                       className="w-full pl-10 pr-4 py-3 rounded-xl 
+             bg-white text-gray-500 appearance-none cursor-pointer
+             outline-none
+             focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+             transition-all duration-200"
                         placeholder="Name"
                         required
                       />
@@ -481,7 +493,11 @@ export default function QuoteRequestForm() {
                         name="companyName"
                         value={formData.companyName}
                         onChange={handleInputChange}
-                        className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-gray-500 placeholder-gray-500"
+                      className="w-full pl-10 pr-4 py-3 rounded-xl 
+             bg-white text-gray-500 appearance-none cursor-pointer
+             outline-none
+             focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+             transition-all duration-200"
                         placeholder="Company Name (Optional)"
                       />
                     </div>
@@ -496,7 +512,11 @@ export default function QuoteRequestForm() {
                         name="email"
                         value={formData.email}
                         onChange={handleInputChange}
-                        className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-gray-500 placeholder-gray-500"
+                       className="w-full pl-10 pr-4 py-3 rounded-xl 
+             bg-white text-gray-500 appearance-none cursor-pointer
+             outline-none
+             focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+             transition-all duration-200"
                         placeholder="Email"
                         required
                       />
@@ -508,11 +528,15 @@ export default function QuoteRequestForm() {
                         <Phone className="w-4 h-4 text-brand-ink" />
                       </div>
                       <input
-                        type="tel"
+                        type="number"
                         name="phone"
                         value={formData.phone}
                         onChange={handleInputChange}
-                        className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-gray-500 placeholder-gray-500"
+                      className="w-full pl-10 pr-4 py-3 rounded-xl 
+             bg-white text-gray-500 appearance-none cursor-pointer
+             outline-none
+             focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+             transition-all duration-200"
                         placeholder="Phone Number"
                         required
                       />
@@ -522,15 +546,15 @@ export default function QuoteRequestForm() {
               </div>
 
               {/* Two Column Layout - Budget/Timeline Left, Additional Preferences Right */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 " >
                 
                 {/* Left Column - Budget/Timeline */}
-                <div className='bg-gray-50 p-6 rounded-2xl border border-gray-200'>
-                  <h2 className="text-lg font-semibold text-gray-900 mb-6">Budget / Timeline</h2>
+                <div className='bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-xl'>
+                  <h2 className="text-2xl font-extrabold text-gray-900 mb-6">Budget / Timeline</h2>
 
                   <div className="space-y-6">
                     <div>
-                      <div className="text-sm text-gray-600 mb-3">Budget Range</div>
+                      <div className="text-2xl text-gray-600 mb-3">Budget Range</div>
                       <div className="space-y-3">
                         {[
                           { value: 'under-10k', label: '$5k - $10k' },
@@ -538,14 +562,17 @@ export default function QuoteRequestForm() {
                           { value: '20k-50k', label: '$20k - $50k' },
                           { value: '50k-plus', label: '$50k+' }
                         ].map((range) => (
-                          <label key={range.value} className="flex items-center cursor-pointer">
+                          <label key={range.value} className="
+                          flex items-center cursor-pointer
+                          w-full pl-5 pr-4 py-3  rounded-xl focus:ring-2  focus:border-transparent transition-all duration-200 text-gray-500 bg-white appearance-none
+                          ">
                             <input
                               type="radio"
                               name="budgetRange"
                               value={range.value}
                               checked={formData.budgetRange === range.value}
                               onChange={handleInputChange}
-                              className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500 focus:ring-2"
+                              className="w-4 h-4 text-blue-600 border-gray-300  "
                             />
                             <span className="ml-3 text-sm text-gray-700">
                               {range.label}
@@ -564,7 +591,7 @@ export default function QuoteRequestForm() {
                         name="timeline"
                         value={formData.timeline}
                         onChange={handleInputChange}
-                        className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-gray-500 bg-white appearance-none cursor-pointer"
+                        className="w-full pl-10 pr-4 py-3  rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-gray-500 bg-white appearance-none outline-none cursor-pointer"
                         required
                       >
                         <option value="">Preferred Timeline</option>
@@ -579,43 +606,53 @@ export default function QuoteRequestForm() {
                 </div>
 
                 {/* Right Column - Additional Preferences */}
-                <div className='bg-gray-50 p-6 rounded-2xl border border-gray-200 h-56 relative'>
-                  <h2 className="text-lg font-semibold text-gray-900 mb-6">Additional Preferences</h2>
+                <div className='bg-gray-50 p-6 rounded-2xl border border-gray-200 h-72 self-start shadow-xl'>
+                  <h2 className="text-2xl font-extrabold text-gray-900 mb-6">Additional Preferences</h2>
 
                   <div className="space-y-4">
-                    <label className="flex items-center cursor-pointer">
+                    <label className="
+                    flex items-center cursor-pointer
+                     w-full pl-5 pr-4 py-3  rounded-xl focus:ring-2  focus:border-transparent transition-all duration-200 text-gray-500 bg-white appearance-none
+                    
+                    ">
                       <input
                         type="checkbox"
                         name="additionalPreferences.nda"
                         checked={formData.additionalPreferences.nda}
                         onChange={handleInputChange}
-                        className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
+                        className="w-4 h-4 text-blue-600 border-gray-300 rounded"
                       />
                       <span className="ml-3 text-sm text-gray-700">
                         NDA Required
                       </span>
                     </label>
 
-                    <label className="flex items-center cursor-pointer">
+                    <label className="
+                    flex items-center cursor-pointer
+                     w-full pl-5 pr-4 py-3  rounded-xl focus:ring-2  focus:border-transparent transition-all duration-200 text-gray-500 bg-white appearance-none
+                    ">
                       <input
                         type="checkbox"
                         name="additionalPreferences.scheduleCall"
                         checked={formData.additionalPreferences.scheduleCall}
                         onChange={handleInputChange}
-                        className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
+                        className="w-4 h-4 text-blue-600 border-gray-300 rounded "
                       />
                       <span className="ml-3 text-sm text-gray-700">
                        Schedule a Proposal Call
                       </span>
                     </label>
 
-                    <label className="flex items-center cursor-pointer ">
+                    <label className="
+                    flex items-center cursor-pointer 
+                     w-full pl-5 pr-4 py-3  rounded-xl focus:ring-2  focus:border-transparent transition-all duration-200 text-gray-500 bg-white appearance-none
+                    ">
                       <input
                         type="checkbox"
                         name="additionalPreferences.ongoingSupport"
                         checked={formData.additionalPreferences.ongoingSupport}
                         onChange={handleInputChange}
-                        className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
+                        className="w-4 h-4 text-blue-600 border-gray-300 rounded"
                       />
                       <span className="ml-3 text-sm text-gray-700">
                         Ongoing Support
@@ -623,11 +660,11 @@ export default function QuoteRequestForm() {
                     </label>
                   </div>
               {/* Submit Button */}
-              <div className=" w-full absolute top-60   ">
+              <div className="flex flex-col items-center text-center mt-14 sm:mt-20 w-full mx-auto    ">
                 <button
                   type="submit"
                   disabled={!isFormValid() || isSubmitting}
-                  className={`relative  px-12 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform flex items-center justify-center ${isFormValid() && !isSubmitting
+                  className={` px-10  min-w-full  py-4 rounded-full font-semibold text-lg transition-all duration-300 transform flex items-center justify-center ${isFormValid() && !isSubmitting
                       ? 'bg-[#D0FF71] hover:bg-lime-600 text-black hover:scale-105 shadow-lg hover:shadow-xl hover:text-white'
                       : 'bg-lime-300 text-black cursor-not-allowed'
                     }`}
@@ -660,7 +697,7 @@ export default function QuoteRequestForm() {
                 />
               </div>
 
-            </div>
+            {/* </div> */}
           </form>
         </div>
 

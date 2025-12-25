@@ -6,6 +6,10 @@ export default {
       screens: {
         'custom': '(min-width: 635px) and (max-width: 765px)',
       },
+       scale: {
+        60: '0.6',
+        75: '0.75',
+      },
       colors: {
         brand: {
           purple: '#9B82F6',

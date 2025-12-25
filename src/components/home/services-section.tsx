@@ -302,7 +302,7 @@ hover:shadow-[0_0_25px_#D0FF71] ${
                 />
 
                 <CurvedText
-                  radius={160}
+                  size={410}
                   duration={10}
                   texts={["JavaScript ", "E-commerce", "No-code"]}
                 />
@@ -341,7 +341,7 @@ hover:shadow-[0_0_25px_#D0FF71] ${
                 />
 
                 <CurvedText
-                  radius={100}
+                  size={220}
                   duration={10}
                   texts={["Python ", "App Dev", "UI/UX"]}
                 />
@@ -350,7 +350,7 @@ hover:shadow-[0_0_25px_#D0FF71] ${
               {/* inner Ring */}
               <Ring size={150} borderWidth={0.1} duration={40} >
                  <CurvedText
-                  radius={100}
+                  size={100}
                   duration={10}
                   texts={["", " ", ""]}
                 />
